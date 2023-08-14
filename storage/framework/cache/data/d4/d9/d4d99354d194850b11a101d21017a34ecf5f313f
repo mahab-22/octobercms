@@ -1,0 +1,71 @@
+1692087470a:1:{s:14:"wiki/index.htm";a:11:{s:8:"fileName";s:14:"wiki/index.htm";s:7:"content";s:1324:"##
+url = "/wiki"
+layout = "wiki"
+title = "Wiki Docs Demo"
+meta_title = "Wiki"
+
+[collection wiki]
+handle = "Wiki\Article"
+
+[resources]
+vars[activeNavLink] = 'wiki'
+vars[howItsMadeCmsTemplate] = 'cms:cms-page:wiki/index.htm'
+vars[howItsMadeTailorBlueprint] = 'tailor:tailor-blueprint:wiki/article.yaml'
+vars[howItsMadeTailorContent] = 'entries/wiki_article'
+==
+{% set article = wiki.first() %}
+
+<div class="container">
+    <article class="wiki-article pb-3">
+        <h1 class="wiki-article-title mb-3">{{ article.title }}</h1>
+        <p class="lead">{{ article.summary_text }}</p>
+
+        <div class="wiki-banner mb-3">
+            {% if article.banner %}
+                <div class="text-banner" style="background-image:url('{{ article.banner.path }}')"></div>
+            {% else %}
+                <div class="text-banner" style="background-image:url('{{ partial('helpers/random-stock-image') }}')"></div>
+            {% endif %}
+        </div>
+
+        {{ article.content|raw }}
+    </article>
+
+    {% if article.external_links %}
+        <hr />
+        <h2>External Links</h2>
+        <ul class="bullet-list list-content">
+            {% for link in article.external_links %}
+                <li><a href="{{ link.link_url }}">{{ link.link_text }}</a></li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+</div>
+";s:5:"mtime";i:1688701776;s:6:"markup";s:964:"{% set article = wiki.first() %}
+
+<div class="container">
+    <article class="wiki-article pb-3">
+        <h1 class="wiki-article-title mb-3">{{ article.title }}</h1>
+        <p class="lead">{{ article.summary_text }}</p>
+
+        <div class="wiki-banner mb-3">
+            {% if article.banner %}
+                <div class="text-banner" style="background-image:url('{{ article.banner.path }}')"></div>
+            {% else %}
+                <div class="text-banner" style="background-image:url('{{ partial('helpers/random-stock-image') }}')"></div>
+            {% endif %}
+        </div>
+
+        {{ article.content|raw }}
+    </article>
+
+    {% if article.external_links %}
+        <hr />
+        <h2>External Links</h2>
+        <ul class="bullet-list list-content">
+            {% for link in article.external_links %}
+                <li><a href="{{ link.link_url }}">{{ link.link_text }}</a></li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+</div>";s:4:"code";N;s:3:"url";s:5:"/wiki";s:6:"layout";s:4:"wiki";s:5:"title";s:14:"Wiki Docs Demo";s:10:"meta_title";s:4:"Wiki";s:15:"collection wiki";a:1:{s:6:"handle";s:12:"Wiki\Article";}s:9:"resources";a:1:{s:4:"vars";a:4:{s:13:"activeNavLink";s:4:"wiki";s:21:"howItsMadeCmsTemplate";s:27:"cms:cms-page:wiki/index.htm";s:25:"howItsMadeTailorBlueprint";s:41:"tailor:tailor-blueprint:wiki/article.yaml";s:23:"howItsMadeTailorContent";s:20:"entries/wiki_article";}}}}

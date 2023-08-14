@@ -1,0 +1,13 @@
+{
+    "packages": [],
+    "providers-url": "/composer/p/%package%$%hash%.json",
+    "metadata-url": "/composer/p2/%package%.json",
+    "provider-includes": {
+        "composer/inc/legacy.json": {
+            "sha256": null
+        },
+        "composer/inc/latest.json": {
+            "sha256": null
+        }
+    }
+}

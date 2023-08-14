@@ -1,0 +1,1 @@
+1689327718a:1:{s:14:"calcresult.htm";a:5:{s:8:"fileName";s:14:"calcresult.htm";s:7:"content";s:24:"{{ result|default(75) }}";s:5:"mtime";i:1688701776;s:6:"markup";s:24:"{{ result|default(75) }}";s:4:"code";N;}}

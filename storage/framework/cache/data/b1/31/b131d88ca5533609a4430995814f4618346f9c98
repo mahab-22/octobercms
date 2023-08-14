@@ -1,0 +1,32 @@
+1692108585a:1:{s:29:"blocks/scoreboard-metrics.htm";a:6:{s:8:"fileName";s:29:"blocks/scoreboard-metrics.htm";s:7:"content";s:631:"##
+[resources]
+less[] = "blocks/scoreboard-metrics.less"
+==
+<div class="block-scoreboard-metrics mt-3">
+    <div class="container">
+        <div class="metrics d-flex justify-content-between">
+            {% for metric in block.metrics|default([]) %}
+                <div class="metric">
+                    <img src="{{ ('assets/images/icons/icon-' ~ metric.icon|default('notepad') ~ '.png')|theme }}" width="42" alt="" />
+                    <h3>{{ metric.number }}</h3>
+                    <p>{{ metric.description }}</p>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+<div class="pb-3"></div>
+";s:5:"mtime";i:1688701776;s:6:"markup";s:570:"<div class="block-scoreboard-metrics mt-3">
+    <div class="container">
+        <div class="metrics d-flex justify-content-between">
+            {% for metric in block.metrics|default([]) %}
+                <div class="metric">
+                    <img src="{{ ('assets/images/icons/icon-' ~ metric.icon|default('notepad') ~ '.png')|theme }}" width="42" alt="" />
+                    <h3>{{ metric.number }}</h3>
+                    <p>{{ metric.description }}</p>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+<div class="pb-3"></div>";s:4:"code";N;s:9:"resources";a:1:{s:4:"less";a:1:{i:0;s:30:"blocks/scoreboard-metrics.less";}}}}

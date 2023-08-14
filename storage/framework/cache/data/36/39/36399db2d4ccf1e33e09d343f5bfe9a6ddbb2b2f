@@ -1,0 +1,107 @@
+1692087470a:1:{s:16:"wiki/article.htm";a:11:{s:8:"fileName";s:16:"wiki/article.htm";s:7:"content";s:1885:"##
+url = "/wiki/:fullslug*/:id"
+layout = "wiki"
+title = "Wiki Article"
+meta_title = "{{ wiki.title }}"
+
+[section wiki]
+handle = "Wiki\Article"
+entrySlug = "{{ :id }}"
+entryColumn = "id"
+
+[resources]
+vars[activeNavLink] = 'wiki'
+vars[howItsMadeCmsTemplate] = 'cms:cms-page:wiki/article.htm'
+vars[howItsMadeTailorBlueprint] = 'tailor:tailor-blueprint:wiki/article.yaml'
+vars[howItsMadeTailorContent] = 'entries/wiki_article/{{ wiki.id }}'
+==
+{% set article = wiki %}
+{% if article is empty %}
+    {% do abort(404) %}
+{% elseif article.fullslug and article.fullslug != this.param.fullslug %}
+    {% do redirect(''|page({ fullslug: article.fullslug }), 301) %}
+{% endif %}
+
+<div class="container">
+
+    <div class="py-3">
+        {% partial 'wiki/breadcrumb' article=article %}
+    </div>
+
+    <article class="wiki-article pb-3">
+        <h1 class="wiki-article-title mb-3">{{ article.title }}</h1>
+        <p class="lead">{{ article.summary_text }}</p>
+
+        <div class="wiki-banner mb-3">
+            {% if article.banner %}
+                <div class="text-banner" style="background-image:url('{{ article.banner.path }}')"></div>
+            {% else %}
+                <div class="text-banner" style="background-image:url('{{ partial('helpers/random-stock-image') }}')"></div>
+            {% endif %}
+        </div>
+
+        {{ article.content|raw }}
+
+        <div class="wiki-article-gallery mb-3">
+            {% partial 'controls/image-carousel' gallery=article.gallery %}
+        </div>
+    </article>
+
+    {% partial 'wiki/continue' article=article %}
+
+    {% if article.external_links %}
+        <hr />
+        <h2>External Links</h2>
+        <ul class="bullet-list list-content">
+            {% for link in article.external_links %}
+                <li><a href="{{ link.link_url }}">{{ link.link_text }}</a></li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+
+</div>
+";s:5:"mtime";i:1688701776;s:6:"markup";s:1444:"{% set article = wiki %}
+{% if article is empty %}
+    {% do abort(404) %}
+{% elseif article.fullslug and article.fullslug != this.param.fullslug %}
+    {% do redirect(''|page({ fullslug: article.fullslug }), 301) %}
+{% endif %}
+
+<div class="container">
+
+    <div class="py-3">
+        {% partial 'wiki/breadcrumb' article=article %}
+    </div>
+
+    <article class="wiki-article pb-3">
+        <h1 class="wiki-article-title mb-3">{{ article.title }}</h1>
+        <p class="lead">{{ article.summary_text }}</p>
+
+        <div class="wiki-banner mb-3">
+            {% if article.banner %}
+                <div class="text-banner" style="background-image:url('{{ article.banner.path }}')"></div>
+            {% else %}
+                <div class="text-banner" style="background-image:url('{{ partial('helpers/random-stock-image') }}')"></div>
+            {% endif %}
+        </div>
+
+        {{ article.content|raw }}
+
+        <div class="wiki-article-gallery mb-3">
+            {% partial 'controls/image-carousel' gallery=article.gallery %}
+        </div>
+    </article>
+
+    {% partial 'wiki/continue' article=article %}
+
+    {% if article.external_links %}
+        <hr />
+        <h2>External Links</h2>
+        <ul class="bullet-list list-content">
+            {% for link in article.external_links %}
+                <li><a href="{{ link.link_url }}">{{ link.link_text }}</a></li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+
+</div>";s:4:"code";N;s:3:"url";s:20:"/wiki/:fullslug*/:id";s:6:"layout";s:4:"wiki";s:5:"title";s:12:"Wiki Article";s:10:"meta_title";s:16:"{{ wiki.title }}";s:12:"section wiki";a:3:{s:6:"handle";s:12:"Wiki\Article";s:9:"entrySlug";s:9:"{{ :id }}";s:11:"entryColumn";s:2:"id";}s:9:"resources";a:1:{s:4:"vars";a:4:{s:13:"activeNavLink";s:4:"wiki";s:21:"howItsMadeCmsTemplate";s:29:"cms:cms-page:wiki/article.htm";s:25:"howItsMadeTailorBlueprint";s:41:"tailor:tailor-blueprint:wiki/article.yaml";s:23:"howItsMadeTailorContent";s:34:"entries/wiki_article/{{ wiki.id }}";}}}}

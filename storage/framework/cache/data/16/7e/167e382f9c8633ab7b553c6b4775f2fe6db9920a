@@ -1,0 +1,53 @@
+1692108585a:1:{s:23:"blocks/team-leaders.htm";a:6:{s:8:"fileName";s:23:"blocks/team-leaders.htm";s:7:"content";s:944:"##
+[resources]
+less[] = "blocks/team-leaders.less"
+js[] = "blocks/team-leaders.js"
+==
+<div class="block-team-leaders">
+    <div class="container py-3">
+        <div class="text-center">
+            <h2 class="pt-5">Meet the Team!</h2>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+        </div>
+    </div>
+</div>
+
+<div class="container py-4">
+    <div class="block-team-leaders">
+        <div data-control="team-leaders" class="team-leaders">
+            {% for member in block.members|default([]) %}
+                <div class="team-member-container">
+                    <div class="team-member card">
+                        <div class="card-body">
+                            {% partial 'elements/user-panel-team' user=member %}
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+";s:5:"mtime";i:1688701776;s:6:"markup";s:857:"<div class="block-team-leaders">
+    <div class="container py-3">
+        <div class="text-center">
+            <h2 class="pt-5">Meet the Team!</h2>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+        </div>
+    </div>
+</div>
+
+<div class="container py-4">
+    <div class="block-team-leaders">
+        <div data-control="team-leaders" class="team-leaders">
+            {% for member in block.members|default([]) %}
+                <div class="team-member-container">
+                    <div class="team-member card">
+                        <div class="card-body">
+                            {% partial 'elements/user-panel-team' user=member %}
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>";s:4:"code";N;s:9:"resources";a:2:{s:4:"less";a:1:{i:0;s:24:"blocks/team-leaders.less";}s:2:"js";a:1:{i:0;s:22:"blocks/team-leaders.js";}}}}

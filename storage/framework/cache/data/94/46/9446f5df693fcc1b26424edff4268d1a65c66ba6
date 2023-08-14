@@ -1,0 +1,1 @@
+1689279784a:7:{s:4:"name";s:6:"Record";s:4:"form";a:0:{}s:10:"modelClass";s:26:"Tailor\Models\GlobalRecord";s:15:"defaultRedirect";s:14:"tailor/globals";s:6:"create";a:1:{s:5:"title";s:13:"Create Record";}s:6:"update";a:1:{s:5:"title";s:11:"Edit Record";}s:7:"preview";a:1:{s:5:"title";s:14:"Preview Record";}}

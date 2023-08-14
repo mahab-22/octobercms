@@ -1,0 +1,1 @@
+1692065401a:1:{s:6:"scopes";a:1:{s:6:"active";a:3:{s:5:"label";s:33:"lovata.toolbox::lang.field.active";s:4:"type";s:6:"switch";s:10:"conditions";a:2:{i:0;s:14:"active <> true";i:1;s:13:"active = true";}}}}

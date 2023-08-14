@@ -1,0 +1,26 @@
+1692108585a:1:{s:26:"blocks/paragraph-block.htm";a:5:{s:8:"fileName";s:26:"blocks/paragraph-block.htm";s:7:"content";s:392:"{% set blockImage = block.image ? block.image|media : 'assets/images/about-chart.png'|theme %}
+
+<div class="container py-3">
+    <h1>{{ block.title }}</h1>
+    <div class="row">
+        <div class="col-md-9">
+            {{ block.content|raw }}
+        </div>
+        <div class="col-md-3">
+            <img src="{{ blockImage }}" alt="" class="img-fluid" />
+        </div>
+    </div>
+</div>
+";s:5:"mtime";i:1688701776;s:6:"markup";s:391:"{% set blockImage = block.image ? block.image|media : 'assets/images/about-chart.png'|theme %}
+
+<div class="container py-3">
+    <h1>{{ block.title }}</h1>
+    <div class="row">
+        <div class="col-md-9">
+            {{ block.content|raw }}
+        </div>
+        <div class="col-md-3">
+            <img src="{{ blockImage }}" alt="" class="img-fluid" />
+        </div>
+    </div>
+</div>";s:4:"code";N;}}

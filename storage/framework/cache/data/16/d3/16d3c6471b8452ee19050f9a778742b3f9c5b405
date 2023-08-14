@@ -1,0 +1,1 @@
+1689327718a:1:{s:19:"ajax/calcresult.txt";a:6:{s:8:"fileName";s:19:"ajax/calcresult.txt";s:7:"content";s:24:"{{ result|default(75) }}";s:5:"mtime";i:1688701776;s:6:"markup";s:24:"{{ result|default(75) }}";s:4:"code";N;s:12:"parsedMarkup";s:24:"{{ result|default(75) }}";}}

@@ -1,0 +1,12 @@
+1692087470a:1:{s:30:"helpers/random-stock-image.htm";a:5:{s:8:"fileName";s:30:"helpers/random-stock-image.htm";s:7:"content";s:149:"{% set images = [
+    'workspace',
+    'desktop',
+    'pancakes',
+    'doughnuts'
+] %}{{ ('assets/images/stock/' ~ random(images) ~ '.png')|theme }}
+";s:5:"mtime";i:1688701776;s:6:"markup";s:148:"{% set images = [
+    'workspace',
+    'desktop',
+    'pancakes',
+    'doughnuts'
+] %}{{ ('assets/images/stock/' ~ random(images) ~ '.png')|theme }}";s:4:"code";N;}}

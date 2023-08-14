@@ -1,0 +1,35 @@
+1692108584a:1:{s:16:"wiki/sidebar.htm";a:6:{s:8:"fileName";s:16:"wiki/sidebar.htm";s:7:"content";s:512:"##
+
+[collection wiki]
+handle = "Wiki\Article"
+==
+{% set articles = wiki.getNested() %}
+
+<div class="sidebar-search">
+    <form action="{{ 'wiki/search'|page }}" method="get">
+        <div class="form-control-search">
+            <input type="text" name="term" class="form-control" placeholder="Search" value="">
+            <span class="search-icon"></span>
+        </div>
+    </form>
+</div>
+
+<div class="sidebar-toc">
+    <h3>Table of Contents</h3>
+    {% partial 'wiki/sidebar-toc' articles=articles %}
+</div>
+";s:5:"mtime";i:1688701776;s:6:"markup";s:462:"{% set articles = wiki.getNested() %}
+
+<div class="sidebar-search">
+    <form action="{{ 'wiki/search'|page }}" method="get">
+        <div class="form-control-search">
+            <input type="text" name="term" class="form-control" placeholder="Search" value="">
+            <span class="search-icon"></span>
+        </div>
+    </form>
+</div>
+
+<div class="sidebar-toc">
+    <h3>Table of Contents</h3>
+    {% partial 'wiki/sidebar-toc' articles=articles %}
+</div>";s:4:"code";N;s:15:"collection wiki";a:1:{s:6:"handle";s:12:"Wiki\Article";}}}

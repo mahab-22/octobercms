@@ -1,0 +1,41 @@
+1692087470a:1:{s:9:"about.htm";a:11:{s:8:"fileName";s:9:"about.htm";s:7:"content";s:839:"##
+url = "/about"
+layout = "default"
+title = "About Page"
+meta_title = "{{ landingPage.title }}"
+
+[section landingPage]
+handle = "LandingPage"
+
+[resources]
+vars[activeNavLink] = 'about'
+vars[howItsMadeCmsTemplate] = 'cms:cms-page:about.htm'
+vars[howItsMadeTailorBlueprint] = 'tailor:tailor-blueprint:landing/landing-page.yaml'
+vars[howItsMadeTailorContent] = 'entries/landing_page'
+==
+{% put headerAfter %}
+    <div class="container">
+        <div class="header-extra text-center">
+            <h1 class="mb-4">Hello! This is October CMS!</h1>
+            <p class="lead">A company proving that making websites is not rocket science.</p>
+        </div>
+    </div>
+{% endput %}
+<main class="header-flush">
+    {% for block in landingPage.blocks %}
+        {% partial 'blocks/' ~ str_slug(block.type) block=block %}
+    {% endfor %}
+</main>
+";s:5:"mtime";i:1688701776;s:6:"markup";s:453:"{% put headerAfter %}
+    <div class="container">
+        <div class="header-extra text-center">
+            <h1 class="mb-4">Hello! This is October CMS!</h1>
+            <p class="lead">A company proving that making websites is not rocket science.</p>
+        </div>
+    </div>
+{% endput %}
+<main class="header-flush">
+    {% for block in landingPage.blocks %}
+        {% partial 'blocks/' ~ str_slug(block.type) block=block %}
+    {% endfor %}
+</main>";s:4:"code";N;s:3:"url";s:6:"/about";s:6:"layout";s:7:"default";s:5:"title";s:10:"About Page";s:10:"meta_title";s:23:"{{ landingPage.title }}";s:19:"section landingPage";a:1:{s:6:"handle";s:11:"LandingPage";}s:9:"resources";a:1:{s:4:"vars";a:4:{s:13:"activeNavLink";s:5:"about";s:21:"howItsMadeCmsTemplate";s:22:"cms:cms-page:about.htm";s:25:"howItsMadeTailorBlueprint";s:49:"tailor:tailor-blueprint:landing/landing-page.yaml";s:23:"howItsMadeTailorContent";s:20:"entries/landing_page";}}}}

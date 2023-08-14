@@ -1,0 +1,46 @@
+1692108585a:1:{s:28:"elements/user-panel-team.htm";a:5:{s:8:"fileName";s:28:"elements/user-panel-team.htm";s:7:"content";s:662:"<div class="element-user-panel team-panel">
+    <div class="user-avatar">
+        {% if user.avatar %}
+            <img src="{{ user.avatar|media }}" alt="{{ user.title }}" />
+        {% else %}
+            <img src="{{ partial('helpers/random-avatar-image') }}" alt="{{ user.title }}" />
+        {% endif %}
+    </div>
+    <div class="user-details">
+        <h3 class="mb-0">{{ user.title }}</h3>
+        <p>
+            {{ user.role }}
+        </p>
+    </div>
+
+    <div class="user-social">
+        {% partial 'elements/social-links' links=user.social_links %}
+    </div>
+
+    <div class="user-profile">
+        <p>{{ user.description }}</p>
+    </div>
+</div>
+";s:5:"mtime";i:1688701776;s:6:"markup";s:661:"<div class="element-user-panel team-panel">
+    <div class="user-avatar">
+        {% if user.avatar %}
+            <img src="{{ user.avatar|media }}" alt="{{ user.title }}" />
+        {% else %}
+            <img src="{{ partial('helpers/random-avatar-image') }}" alt="{{ user.title }}" />
+        {% endif %}
+    </div>
+    <div class="user-details">
+        <h3 class="mb-0">{{ user.title }}</h3>
+        <p>
+            {{ user.role }}
+        </p>
+    </div>
+
+    <div class="user-social">
+        {% partial 'elements/social-links' links=user.social_links %}
+    </div>
+
+    <div class="user-profile">
+        <p>{{ user.description }}</p>
+    </div>
+</div>";s:4:"code";N;}}

@@ -1,0 +1,26 @@
+1692087470a:1:{s:9:"error.htm";a:9:{s:8:"fileName";s:9:"error.htm";s:7:"content";s:421:"title = "Error Page (500)"
+url = "/error"
+layout = "default"
+
+[resources]
+less[] = "pages/404.less"
+vars[howItsMadeCmsTemplate] = 'cms:cms-page:error.htm'
+==
+{% put meta %}
+    <meta name="turbo-visit-control" content="error">
+{% endput %}
+<div class="container">
+    <div class="banner-404">
+        <h1>Error</h1>
+        <p>We're sorry, but something went wrong and the page cannot be displayed.</p>
+    </div>
+</div>
+";s:5:"mtime";i:1688701776;s:6:"markup";s:262:"{% put meta %}
+    <meta name="turbo-visit-control" content="error">
+{% endput %}
+<div class="container">
+    <div class="banner-404">
+        <h1>Error</h1>
+        <p>We're sorry, but something went wrong and the page cannot be displayed.</p>
+    </div>
+</div>";s:4:"code";N;s:5:"title";s:16:"Error Page (500)";s:3:"url";s:6:"/error";s:6:"layout";s:7:"default";s:9:"resources";a:2:{s:4:"less";a:1:{i:0;s:14:"pages/404.less";}s:4:"vars";a:1:{s:21:"howItsMadeCmsTemplate";s:22:"cms:cms-page:error.htm";}}}}

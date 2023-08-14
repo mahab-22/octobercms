@@ -1,0 +1,92 @@
+1692087470a:1:{s:11:"sitemap.htm";a:9:{s:8:"fileName";s:11:"sitemap.htm";s:7:"content";s:1636:"##
+title = "Sitemap"
+url = "/sitemap.xml"
+
+[resources]
+headers[Content-Type] = 'application/xml'
+
+[collection sitemap]
+handle = "Site\Sitemap"
+==
+{% macro render_sitemap_item(item, reference, isRoot) %}
+    {% import _self as nav %}
+    {% set hideRootItem = isRoot and item.replace %}
+    {% if reference.url and not hideRootItem %}
+        <url>
+            <loc>{{ reference.url }}</loc>
+            <lastmod>{{ reference.mtime|date('c') }}</lastmod>
+            <changefreq>{{ item.changefreq }}</changefreq>
+            <priority>{{ item.priority }}</priority>
+
+            {#- Multisite implementation -#}
+            {% if reference.sites %}
+                {% for site in reference.sites %}
+                    <xhtml:link rel="alternative" hreflang="{{ site.locale }}" href="{{ site.url }}" />
+                {% endfor %}
+            {% endif %}
+        </url>
+    {% endif %}
+
+    {#- Render child items -#}
+    {% if reference.items %}
+        {% for child in reference.items %}
+            {{ nav.render_sitemap_item(item, child) }}
+        {% endfor %}
+    {% endif %}
+{% endmacro %}
+{% import _self as nav %}
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="https://www.w3.org/1999/xhtml"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+>
+    {% for item in sitemap %}
+        {{ nav.render_sitemap_item(
+            item,
+            link(item.reference, { nesting: item.nesting, sites: true }),
+            true
+        ) }}
+    {% endfor %}
+</urlset>
+";s:5:"mtime";i:1688701776;s:6:"markup";s:1489:"{% macro render_sitemap_item(item, reference, isRoot) %}
+    {% import _self as nav %}
+    {% set hideRootItem = isRoot and item.replace %}
+    {% if reference.url and not hideRootItem %}
+        <url>
+            <loc>{{ reference.url }}</loc>
+            <lastmod>{{ reference.mtime|date('c') }}</lastmod>
+            <changefreq>{{ item.changefreq }}</changefreq>
+            <priority>{{ item.priority }}</priority>
+
+            {#- Multisite implementation -#}
+            {% if reference.sites %}
+                {% for site in reference.sites %}
+                    <xhtml:link rel="alternative" hreflang="{{ site.locale }}" href="{{ site.url }}" />
+                {% endfor %}
+            {% endif %}
+        </url>
+    {% endif %}
+
+    {#- Render child items -#}
+    {% if reference.items %}
+        {% for child in reference.items %}
+            {{ nav.render_sitemap_item(item, child) }}
+        {% endfor %}
+    {% endif %}
+{% endmacro %}
+{% import _self as nav %}
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="https://www.w3.org/1999/xhtml"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+>
+    {% for item in sitemap %}
+        {{ nav.render_sitemap_item(
+            item,
+            link(item.reference, { nesting: item.nesting, sites: true }),
+            true
+        ) }}
+    {% endfor %}
+</urlset>";s:4:"code";N;s:5:"title";s:7:"Sitemap";s:3:"url";s:12:"/sitemap.xml";s:9:"resources";a:1:{s:7:"headers";a:1:{s:12:"Content-Type";s:15:"application/xml";}}s:18:"collection sitemap";a:1:{s:6:"handle";s:12:"Site\Sitemap";}}}

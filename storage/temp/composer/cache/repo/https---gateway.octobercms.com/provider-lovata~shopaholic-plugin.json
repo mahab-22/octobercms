@@ -1,0 +1,1220 @@
+{
+    "packages": {
+        "lovata/shopaholic-plugin": [
+            {
+                "name": "lovata/shopaholic-plugin",
+                "version": "1.14.0",
+                "version_normalized": "1.14.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/shopaholic-plugin/lovata-shopaholic-plugin-739b4430382aca3b35f6eec46128e48289fbf736-zip-0188f9.zip",
+                    "reference": "739b4430382aca3b35f6eec46128e48289fbf736",
+                    "shasum": "65d3a834ef3508b98704a3e950002e6420f04a5d"
+                },
+                "require": {
+                    "lovata/oc-toolbox-plugin": "~1.16",
+                    "php": ">=7.0"
+                },
+                "time": "2018-10-21T19:08:37+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "eCommerce plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/tree/1.14.0",
+                    "issues": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/issues"
+                },
+                "funding": [
+                    {
+                        "type": "open_collective",
+                        "url": "https://opencollective.com/oc-shopaholic"
+                    }
+                ],
+                "uid": 1
+            },
+            {
+                "name": "lovata/shopaholic-plugin",
+                "version": "1.14.1",
+                "version_normalized": "1.14.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/shopaholic-plugin/lovata-shopaholic-plugin-c201023f19e19d708560bb3da7147a90e41eceb3-zip-d64dc5.zip",
+                    "reference": "c201023f19e19d708560bb3da7147a90e41eceb3",
+                    "shasum": "6473625522a5971e83f26cdf149d2f646c7a339d"
+                },
+                "require": {
+                    "lovata/oc-toolbox-plugin": "~1.16",
+                    "php": ">=7.0"
+                },
+                "time": "2018-10-28T12:40:53+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "eCommerce plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/tree/1.14.1",
+                    "issues": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/issues"
+                },
+                "funding": [
+                    {
+                        "type": "open_collective",
+                        "url": "https://opencollective.com/oc-shopaholic"
+                    }
+                ],
+                "uid": 2
+            },
+            {
+                "name": "lovata/shopaholic-plugin",
+                "version": "1.15.0",
+                "version_normalized": "1.15.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/shopaholic-plugin/lovata-shopaholic-plugin-7406b2f8526eea3c824c1cf595781fe34c12fd95-zip-eb7ade.zip",
+                    "reference": "7406b2f8526eea3c824c1cf595781fe34c12fd95",
+                    "shasum": "2039d049a481208a3946821b2bc763018795657c"
+                },
+                "require": {
+                    "lovata/oc-toolbox-plugin": "~1.16",
+                    "php": ">=7.0"
+                },
+                "time": "2018-11-01T09:18:58+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "eCommerce plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/tree/1.15.0",
+                    "issues": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/issues"
+                },
+                "funding": [
+                    {
+                        "type": "open_collective",
+                        "url": "https://opencollective.com/oc-shopaholic"
+                    }
+                ],
+                "uid": 3
+            },
+            {
+                "name": "lovata/shopaholic-plugin",
+                "version": "1.16.0",
+                "version_normalized": "1.16.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/shopaholic-plugin/lovata-shopaholic-plugin-c0e3c4d53552a5b051db43e6c950167b225c593e-zip-4a741e.zip",
+                    "reference": "c0e3c4d53552a5b051db43e6c950167b225c593e",
+                    "shasum": "fab757baae9b33dafc54690e25c736259a00e68b"
+                },
+                "require": {
+                    "lovata/oc-toolbox-plugin": "~1.16",
+                    "php": ">=7.0"
+                },
+                "time": "2018-11-02T14:11:41+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "eCommerce plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/tree/1.16.0",
+                    "issues": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/issues"
+                },
+                "funding": [
+                    {
+                        "type": "open_collective",
+                        "url": "https://opencollective.com/oc-shopaholic"
+                    }
+                ],
+                "uid": 4
+            },
+            {
+                "name": "lovata/shopaholic-plugin",
+                "version": "1.16.1",
+                "version_normalized": "1.16.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/shopaholic-plugin/lovata-shopaholic-plugin-57345c8d29ef2d66e160ce4078712ad76a355220-zip-6ff22d.zip",
+                    "reference": "57345c8d29ef2d66e160ce4078712ad76a355220",
+                    "shasum": "000ac82b712a5c56bf3afa6ad5d0261cbcc1c8a8"
+                },
+                "require": {
+                    "lovata/oc-toolbox-plugin": "~1.16",
+                    "php": ">=7.0"
+                },
+                "time": "2018-11-05T11:49:38+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "eCommerce plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/tree/1.16.1",
+                    "issues": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/issues"
+                },
+                "funding": [
+                    {
+                        "type": "open_collective",
+                        "url": "https://opencollective.com/oc-shopaholic"
+                    }
+                ],
+                "uid": 5
+            },
+            {
+                "name": "lovata/shopaholic-plugin",
+                "version": "1.17.0",
+                "version_normalized": "1.17.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/shopaholic-plugin/lovata-shopaholic-plugin-bcd20e16e6c7c0cec847a85b67f55b4b3dbe3cf1-zip-31be05.zip",
+                    "reference": "bcd20e16e6c7c0cec847a85b67f55b4b3dbe3cf1",
+                    "shasum": "2e615959d4adca5897fb7c870d7d16b4ae6c8d70"
+                },
+                "require": {
+                    "lovata/oc-toolbox-plugin": "~1.16",
+                    "php": ">=7.0"
+                },
+                "time": "2018-11-07T12:29:17+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "eCommerce plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/tree/1.17.0",
+                    "issues": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/issues"
+                },
+                "funding": [
+                    {
+                        "type": "open_collective",
+                        "url": "https://opencollective.com/oc-shopaholic"
+                    }
+                ],
+                "uid": 6
+            },
+            {
+                "name": "lovata/shopaholic-plugin",
+                "version": "1.18.0",
+                "version_normalized": "1.18.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/shopaholic-plugin/lovata-shopaholic-plugin-eb0892365144961d06919fa7a3bfa7a4872039fa-zip-b893d3.zip",
+                    "reference": "eb0892365144961d06919fa7a3bfa7a4872039fa",
+                    "shasum": "9ee0cc28e46b5faef5c7a9017b487e1d495cd09b"
+                },
+                "require": {
+                    "lovata/oc-toolbox-plugin": "~1.16",
+                    "php": ">=7.0"
+                },
+                "time": "2018-11-15T18:42:08+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "eCommerce plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/tree/1.18.0",
+                    "issues": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/issues"
+                },
+                "funding": [
+                    {
+                        "type": "open_collective",
+                        "url": "https://opencollective.com/oc-shopaholic"
+                    }
+                ],
+                "uid": 7
+            },
+            {
+                "name": "lovata/shopaholic-plugin",
+                "version": "1.19.0",
+                "version_normalized": "1.19.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/shopaholic-plugin/lovata-shopaholic-plugin-329a490d1958985fef082a6ce35e06f2b1720c8d-zip-d370af.zip",
+                    "reference": "329a490d1958985fef082a6ce35e06f2b1720c8d",
+                    "shasum": "0df4e9d32661f45d1f247ff8550d9a79c0ce8eca"
+                },
+                "require": {
+                    "lovata/oc-toolbox-plugin": "~1.16",
+                    "php": ">=7.0"
+                },
+                "time": "2018-11-18T16:01:19+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "eCommerce plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/tree/1.19.0",
+                    "issues": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/issues"
+                },
+                "funding": [
+                    {
+                        "type": "open_collective",
+                        "url": "https://opencollective.com/oc-shopaholic"
+                    }
+                ],
+                "uid": 8
+            },
+            {
+                "name": "lovata/shopaholic-plugin",
+                "version": "1.19.1",
+                "version_normalized": "1.19.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/shopaholic-plugin/lovata-shopaholic-plugin-d737fb5e7e5e8c363ec10474099676dae5b190e3-zip-2ec7fd.zip",
+                    "reference": "d737fb5e7e5e8c363ec10474099676dae5b190e3",
+                    "shasum": "9d701de97d61912917d9a2b2f95c7f4023d440f3"
+                },
+                "require": {
+                    "lovata/oc-toolbox-plugin": "~1.16",
+                    "php": ">=7.0"
+                },
+                "time": "2018-11-21T19:21:39+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "eCommerce plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/tree/1.19.1",
+                    "issues": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/issues"
+                },
+                "funding": [
+                    {
+                        "type": "open_collective",
+                        "url": "https://opencollective.com/oc-shopaholic"
+                    }
+                ],
+                "uid": 9
+            },
+            {
+                "name": "lovata/shopaholic-plugin",
+                "version": "1.21.0",
+                "version_normalized": "1.21.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/shopaholic-plugin/lovata-shopaholic-plugin-90fc988331facae34f0deccf96cce2a0aa265531-zip-99c22d.zip",
+                    "reference": "90fc988331facae34f0deccf96cce2a0aa265531",
+                    "shasum": "5bb57feb20a2d571c5cf577890a405eb414adacc"
+                },
+                "require": {
+                    "lovata/oc-toolbox-plugin": "~1.16",
+                    "php": ">=7.0"
+                },
+                "time": "2019-02-27T11:13:06+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "eCommerce plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/tree/1.21.0",
+                    "issues": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/issues"
+                },
+                "funding": [
+                    {
+                        "type": "open_collective",
+                        "url": "https://opencollective.com/oc-shopaholic"
+                    }
+                ],
+                "uid": 10
+            },
+            {
+                "name": "lovata/shopaholic-plugin",
+                "version": "1.21.1",
+                "version_normalized": "1.21.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/shopaholic-plugin/lovata-shopaholic-plugin-11f330e91d987fab7afd0a783dd4ecc3f70cde2a-zip-c10a24.zip",
+                    "reference": "11f330e91d987fab7afd0a783dd4ecc3f70cde2a",
+                    "shasum": "b94bd9bf5961aaa3f33af6a3f181f95fa6a69a13"
+                },
+                "require": {
+                    "lovata/oc-toolbox-plugin": "~1.16",
+                    "php": ">=7.0"
+                },
+                "time": "2019-02-27T19:00:15+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "eCommerce plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/tree/1.21.1",
+                    "issues": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/issues"
+                },
+                "funding": [
+                    {
+                        "type": "open_collective",
+                        "url": "https://opencollective.com/oc-shopaholic"
+                    }
+                ],
+                "uid": 11
+            },
+            {
+                "name": "lovata/shopaholic-plugin",
+                "version": "1.21.2",
+                "version_normalized": "1.21.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/shopaholic-plugin/lovata-shopaholic-plugin-f6124c3aaae626ee01e88cceb911677657e80495-zip-23cea7.zip",
+                    "reference": "f6124c3aaae626ee01e88cceb911677657e80495",
+                    "shasum": "4a5e7c431700014551da8aec3de9ccdfcab679d0"
+                },
+                "require": {
+                    "lovata/oc-toolbox-plugin": "~1.16",
+                    "php": ">=7.0"
+                },
+                "time": "2019-04-01T06:40:31+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "eCommerce plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/tree/1.21.2",
+                    "issues": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/issues"
+                },
+                "funding": [
+                    {
+                        "type": "open_collective",
+                        "url": "https://opencollective.com/oc-shopaholic"
+                    }
+                ],
+                "uid": 12
+            },
+            {
+                "name": "lovata/shopaholic-plugin",
+                "version": "1.22.0",
+                "version_normalized": "1.22.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/shopaholic-plugin/lovata-shopaholic-plugin-2789b94dd89f6735b524d68f3a0f5324e2422e2f-zip-001561.zip",
+                    "reference": "2789b94dd89f6735b524d68f3a0f5324e2422e2f",
+                    "shasum": "f4554475c565125471759586e2e264a4595af00c"
+                },
+                "require": {
+                    "lovata/oc-toolbox-plugin": "~1.16",
+                    "php": ">=7.0"
+                },
+                "time": "2019-05-29T10:08:09+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "eCommerce plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/tree/1.22.0",
+                    "issues": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/issues"
+                },
+                "funding": [
+                    {
+                        "type": "open_collective",
+                        "url": "https://opencollective.com/oc-shopaholic"
+                    }
+                ],
+                "uid": 13
+            },
+            {
+                "name": "lovata/shopaholic-plugin",
+                "version": "1.22.1",
+                "version_normalized": "1.22.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/shopaholic-plugin/lovata-shopaholic-plugin-f6a0a37e73b8ce2fdafcc286770b5dca076d3354-zip-e629dd.zip",
+                    "reference": "f6a0a37e73b8ce2fdafcc286770b5dca076d3354",
+                    "shasum": "9fc0618b8b803cbfeff9772c9c08244da1a30a9c"
+                },
+                "require": {
+                    "lovata/oc-toolbox-plugin": "~1.16",
+                    "php": ">=7.0"
+                },
+                "time": "2019-05-29T11:56:02+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "eCommerce plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/tree/1.22.1",
+                    "issues": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/issues"
+                },
+                "funding": [
+                    {
+                        "type": "open_collective",
+                        "url": "https://opencollective.com/oc-shopaholic"
+                    }
+                ],
+                "uid": 14
+            },
+            {
+                "name": "lovata/shopaholic-plugin",
+                "version": "1.22.2",
+                "version_normalized": "1.22.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/shopaholic-plugin/lovata-shopaholic-plugin-2bc30862ccf8f94516d19a71681d2ba2f3620e53-zip-d24b3c.zip",
+                    "reference": "2bc30862ccf8f94516d19a71681d2ba2f3620e53",
+                    "shasum": "7b795fc1d3ec6dc7ca746274ef211df09628b8e5"
+                },
+                "require": {
+                    "lovata/oc-toolbox-plugin": "~1.16",
+                    "php": ">=7.0"
+                },
+                "time": "2019-05-29T12:56:20+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "eCommerce plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/tree/1.22.2",
+                    "issues": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/issues"
+                },
+                "funding": [
+                    {
+                        "type": "open_collective",
+                        "url": "https://opencollective.com/oc-shopaholic"
+                    }
+                ],
+                "uid": 15
+            },
+            {
+                "name": "lovata/shopaholic-plugin",
+                "version": "1.22.3",
+                "version_normalized": "1.22.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/shopaholic-plugin/lovata-shopaholic-plugin-d8b0f3cc5424498f879dbf5db8b31a6e0fdfb971-zip-cee2e2.zip",
+                    "reference": "d8b0f3cc5424498f879dbf5db8b31a6e0fdfb971",
+                    "shasum": "bdb5dda3e0785b5711060de5c3e5914cf65b7e67"
+                },
+                "require": {
+                    "lovata/oc-toolbox-plugin": "~1.16",
+                    "php": ">=7.0"
+                },
+                "time": "2019-05-31T11:32:59+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "eCommerce plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/tree/1.22.3",
+                    "issues": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/issues"
+                },
+                "funding": [
+                    {
+                        "type": "open_collective",
+                        "url": "https://opencollective.com/oc-shopaholic"
+                    }
+                ],
+                "uid": 16
+            },
+            {
+                "name": "lovata/shopaholic-plugin",
+                "version": "1.22.4",
+                "version_normalized": "1.22.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/shopaholic-plugin/lovata-shopaholic-plugin-2d32371654a431a77b316362afe18a019d274055-zip-128ea1.zip",
+                    "reference": "2d32371654a431a77b316362afe18a019d274055",
+                    "shasum": "01b03dc8f6b1f165153b0ba64a2604c74318c867"
+                },
+                "require": {
+                    "lovata/oc-toolbox-plugin": "~1.16",
+                    "php": ">=7.0"
+                },
+                "time": "2019-06-21T06:53:39+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "eCommerce plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/tree/1.22.4",
+                    "issues": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/issues"
+                },
+                "funding": [
+                    {
+                        "type": "open_collective",
+                        "url": "https://opencollective.com/oc-shopaholic"
+                    }
+                ],
+                "uid": 17
+            },
+            {
+                "name": "lovata/shopaholic-plugin",
+                "version": "1.22.5",
+                "version_normalized": "1.22.5.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/shopaholic-plugin/lovata-shopaholic-plugin-18a84152cc5ffc193321ce979c484dc1be28ca67-zip-6114e4.zip",
+                    "reference": "18a84152cc5ffc193321ce979c484dc1be28ca67",
+                    "shasum": "05346a591d82dd8300e76080034872f96278c8d9"
+                },
+                "require": {
+                    "lovata/oc-toolbox-plugin": "~1.16",
+                    "php": ">=7.0"
+                },
+                "time": "2019-06-28T08:11:55+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "eCommerce plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/tree/1.22.5",
+                    "issues": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/issues"
+                },
+                "funding": [
+                    {
+                        "type": "open_collective",
+                        "url": "https://opencollective.com/oc-shopaholic"
+                    }
+                ],
+                "uid": 18
+            },
+            {
+                "name": "lovata/shopaholic-plugin",
+                "version": "1.23.0",
+                "version_normalized": "1.23.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/shopaholic-plugin/lovata-shopaholic-plugin-fa6c4f88695e2f3384e7c3f29bc3614301c52fd1-zip-5ade1b.zip",
+                    "reference": "fa6c4f88695e2f3384e7c3f29bc3614301c52fd1",
+                    "shasum": "091e09c22d473e4e02587e0b0f9e37de442aba1d"
+                },
+                "require": {
+                    "lovata/oc-toolbox-plugin": "~1.16",
+                    "php": ">=7.0"
+                },
+                "time": "2019-10-18T14:22:01+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "eCommerce plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/tree/1.23.0",
+                    "issues": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/issues"
+                },
+                "funding": [
+                    {
+                        "type": "open_collective",
+                        "url": "https://opencollective.com/oc-shopaholic"
+                    }
+                ],
+                "uid": 19
+            },
+            {
+                "name": "lovata/shopaholic-plugin",
+                "version": "1.23.1",
+                "version_normalized": "1.23.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/shopaholic-plugin/lovata-shopaholic-plugin-5e8de091af093d3dfc9cd722a3c3503522b697db-zip-765b19.zip",
+                    "reference": "5e8de091af093d3dfc9cd722a3c3503522b697db",
+                    "shasum": "06bf6f1db1ffa70662c69a3e3ce633973f3bd7bb"
+                },
+                "require": {
+                    "lovata/oc-toolbox-plugin": "~1.16",
+                    "php": ">=7.0"
+                },
+                "time": "2019-10-21T14:17:42+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "eCommerce plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/tree/1.23.1",
+                    "issues": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/issues"
+                },
+                "funding": [
+                    {
+                        "type": "open_collective",
+                        "url": "https://opencollective.com/oc-shopaholic"
+                    }
+                ],
+                "uid": 20
+            },
+            {
+                "name": "lovata/shopaholic-plugin",
+                "version": "1.24.0",
+                "version_normalized": "1.24.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/shopaholic-plugin/lovata-shopaholic-plugin-6422e21bcf8cad9c51b1b97476f231cedb7ca9ca-zip-4fcc05.zip",
+                    "reference": "6422e21bcf8cad9c51b1b97476f231cedb7ca9ca",
+                    "shasum": "c1739695f1245926ccd6e0b6b56767ecd7ddb1c9"
+                },
+                "require": {
+                    "lovata/oc-toolbox-plugin": "~1.16",
+                    "php": ">=7.0"
+                },
+                "time": "2019-12-19T07:57:50+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "eCommerce plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/tree/1.24.0",
+                    "issues": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/issues"
+                },
+                "funding": [
+                    {
+                        "type": "open_collective",
+                        "url": "https://opencollective.com/oc-shopaholic"
+                    }
+                ],
+                "uid": 21
+            },
+            {
+                "name": "lovata/shopaholic-plugin",
+                "version": "1.24.1",
+                "version_normalized": "1.24.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/shopaholic-plugin/lovata-shopaholic-plugin-0d3711ca6fbe4da384083c7acacd4add6ceb9ede-zip-93d3f2.zip",
+                    "reference": "0d3711ca6fbe4da384083c7acacd4add6ceb9ede",
+                    "shasum": "a3f0ed19fe42893c69155480d9f98eacc9211137"
+                },
+                "require": {
+                    "lovata/oc-toolbox-plugin": "~1.16",
+                    "php": ">=7.0"
+                },
+                "time": "2019-12-24T08:01:02+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "eCommerce plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/tree/1.24.1",
+                    "issues": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/issues"
+                },
+                "funding": [
+                    {
+                        "type": "open_collective",
+                        "url": "https://opencollective.com/oc-shopaholic"
+                    }
+                ],
+                "uid": 22
+            },
+            {
+                "name": "lovata/shopaholic-plugin",
+                "version": "1.24.2",
+                "version_normalized": "1.24.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/shopaholic-plugin/lovata-shopaholic-plugin-8c6bcf63a9e112a6389e402294f148469b619785-zip-3518a8.zip",
+                    "reference": "8c6bcf63a9e112a6389e402294f148469b619785",
+                    "shasum": "869f9323b2a5d7485fb50c8eea1b94e16af00b93"
+                },
+                "require": {
+                    "lovata/oc-toolbox-plugin": "~1.16",
+                    "php": ">=7.0"
+                },
+                "time": "2020-01-08T09:01:02+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "eCommerce plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/tree/1.24.2",
+                    "issues": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/issues"
+                },
+                "funding": [
+                    {
+                        "type": "open_collective",
+                        "url": "https://opencollective.com/oc-shopaholic"
+                    }
+                ],
+                "uid": 23
+            },
+            {
+                "name": "lovata/shopaholic-plugin",
+                "version": "1.24.3",
+                "version_normalized": "1.24.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/shopaholic-plugin/lovata-shopaholic-plugin-48d795bdb58bd2059a5b6d088eb5917d091831a4-zip-08b0ce.zip",
+                    "reference": "48d795bdb58bd2059a5b6d088eb5917d091831a4",
+                    "shasum": "95ee494029b9afe3db4887b65e8db4f114ca812f"
+                },
+                "require": {
+                    "lovata/oc-toolbox-plugin": "~1.16",
+                    "php": ">=7.0"
+                },
+                "time": "2020-02-04T19:55:49+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "eCommerce plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/tree/1.24.3",
+                    "issues": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/issues"
+                },
+                "funding": [
+                    {
+                        "type": "open_collective",
+                        "url": "https://opencollective.com/oc-shopaholic"
+                    }
+                ],
+                "uid": 24
+            },
+            {
+                "name": "lovata/shopaholic-plugin",
+                "version": "1.25.0",
+                "version_normalized": "1.25.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/shopaholic-plugin/lovata-shopaholic-plugin-a1154e6902b09a124dac875a0c7aab202e6eaef9-zip-1ae0f4.zip",
+                    "reference": "a1154e6902b09a124dac875a0c7aab202e6eaef9",
+                    "shasum": "f5915e48e59500088ea9e772cc0bd8eab4e8f9f3"
+                },
+                "require": {
+                    "lovata/oc-toolbox-plugin": "~1.16",
+                    "php": ">=7.0"
+                },
+                "time": "2020-02-14T11:27:44+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "eCommerce plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/tree/1.25.0",
+                    "issues": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/issues"
+                },
+                "funding": [
+                    {
+                        "type": "open_collective",
+                        "url": "https://opencollective.com/oc-shopaholic"
+                    }
+                ],
+                "uid": 25
+            },
+            {
+                "name": "lovata/shopaholic-plugin",
+                "version": "1.26.0",
+                "version_normalized": "1.26.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/shopaholic-plugin/lovata-shopaholic-plugin-fce3900f57098c27c8e59d275c9ac3668a5c72a7-zip-8d97d0.zip",
+                    "reference": "fce3900f57098c27c8e59d275c9ac3668a5c72a7",
+                    "shasum": "156d7cfb671c4eeaa8d6fe306c7df9a3ad2b7a18"
+                },
+                "require": {
+                    "lovata/oc-toolbox-plugin": "~1.16",
+                    "php": ">=7.0"
+                },
+                "time": "2020-03-02T14:08:51+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "eCommerce plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/tree/1.26.0",
+                    "issues": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/issues"
+                },
+                "funding": [
+                    {
+                        "type": "open_collective",
+                        "url": "https://opencollective.com/oc-shopaholic"
+                    }
+                ],
+                "uid": 26
+            },
+            {
+                "name": "lovata/shopaholic-plugin",
+                "version": "1.27.0",
+                "version_normalized": "1.27.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/shopaholic-plugin/lovata-shopaholic-plugin-50061035388a8fe99d420f64d05376b9e84649df-zip-4fc1ef.zip",
+                    "reference": "50061035388a8fe99d420f64d05376b9e84649df",
+                    "shasum": "635e15804244dd6321830626b80947d8e0472d18"
+                },
+                "require": {
+                    "lovata/oc-toolbox-plugin": "~1.16",
+                    "php": ">=7.0"
+                },
+                "time": "2020-03-26T09:30:24+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "eCommerce plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/tree/1.27.0",
+                    "issues": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/issues"
+                },
+                "funding": [
+                    {
+                        "type": "open_collective",
+                        "url": "https://opencollective.com/oc-shopaholic"
+                    }
+                ],
+                "uid": 27
+            },
+            {
+                "name": "lovata/shopaholic-plugin",
+                "version": "1.27.1",
+                "version_normalized": "1.27.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/shopaholic-plugin/lovata-shopaholic-plugin-82a3941b5f5a8421074f2358d8380386ec861957-zip-8daf94.zip",
+                    "reference": "82a3941b5f5a8421074f2358d8380386ec861957",
+                    "shasum": "5665db9e1effa90cc5f8dcaebeb62f297ca4584f"
+                },
+                "require": {
+                    "lovata/oc-toolbox-plugin": "~1.16",
+                    "php": ">=7.0"
+                },
+                "time": "2020-05-15T13:04:40+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "eCommerce plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/tree/1.27.1",
+                    "issues": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/issues"
+                },
+                "funding": [
+                    {
+                        "type": "open_collective",
+                        "url": "https://opencollective.com/oc-shopaholic"
+                    }
+                ],
+                "uid": 28
+            },
+            {
+                "name": "lovata/shopaholic-plugin",
+                "version": "1.28.0",
+                "version_normalized": "1.28.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/shopaholic-plugin/lovata-shopaholic-plugin-a0b7854ee758cc7570a2a982541b36668c936382-zip-b5551c.zip",
+                    "reference": "a0b7854ee758cc7570a2a982541b36668c936382",
+                    "shasum": "7c6244b62c5b5237acb2dae8afe8991167abbdc6"
+                },
+                "require": {
+                    "lovata/oc-toolbox-plugin": "~1.16",
+                    "php": ">=7.0"
+                },
+                "time": "2020-12-28T19:47:11+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "eCommerce plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/tree/1.28.0",
+                    "issues": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/issues"
+                },
+                "funding": [
+                    {
+                        "type": "open_collective",
+                        "url": "https://opencollective.com/oc-shopaholic"
+                    }
+                ],
+                "uid": 29
+            },
+            {
+                "name": "lovata/shopaholic-plugin",
+                "version": "1.29.0",
+                "version_normalized": "1.29.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/shopaholic-plugin/lovata-shopaholic-plugin-800ac78e508489f6cfe1e7b579d34b8931062eee-zip-b11e4a.zip",
+                    "reference": "800ac78e508489f6cfe1e7b579d34b8931062eee",
+                    "shasum": "bae0bb8e4370aa6be7ece05bc942fbb993a9553f"
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                },
+                "time": "2021-05-02T07:24:24+00:00",
+                "type": "october-plugin",
+                "description": "eCommerce plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/tree/1.29.0",
+                    "issues": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/issues"
+                },
+                "funding": [
+                    {
+                        "type": "open_collective",
+                        "url": "https://opencollective.com/oc-shopaholic"
+                    }
+                ],
+                "uid": 30
+            },
+            {
+                "name": "lovata/shopaholic-plugin",
+                "version": "1.30.0",
+                "version_normalized": "1.30.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/shopaholic-plugin/lovata-shopaholic-plugin-61dda4c4e9679553e69ff15535099ba3e59f1bbb-zip-0a65a7.zip",
+                    "reference": "61dda4c4e9679553e69ff15535099ba3e59f1bbb",
+                    "shasum": "faede81b231b59724a7c8c9019c870ae2db89261"
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                },
+                "time": "2021-05-02T13:35:02+00:00",
+                "type": "october-plugin",
+                "description": "eCommerce plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/tree/1.30.0",
+                    "issues": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/issues"
+                },
+                "funding": [
+                    {
+                        "type": "open_collective",
+                        "url": "https://opencollective.com/oc-shopaholic"
+                    }
+                ],
+                "uid": 31
+            },
+            {
+                "name": "lovata/shopaholic-plugin",
+                "version": "1.30.1",
+                "version_normalized": "1.30.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/shopaholic-plugin/lovata-shopaholic-plugin-10e108653f0f8ee05827669dd2fa09d21607748d-zip-4f467e.zip",
+                    "reference": "10e108653f0f8ee05827669dd2fa09d21607748d",
+                    "shasum": "b666c15e34c67714e71aefb45326b38fd01ec423"
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                },
+                "time": "2021-05-05T19:24:40+00:00",
+                "type": "october-plugin",
+                "description": "eCommerce plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/tree/1.30.1",
+                    "issues": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/issues"
+                },
+                "funding": [
+                    {
+                        "type": "open_collective",
+                        "url": "https://opencollective.com/oc-shopaholic"
+                    }
+                ],
+                "uid": 32
+            },
+            {
+                "name": "lovata/shopaholic-plugin",
+                "version": "1.30.2",
+                "version_normalized": "1.30.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/shopaholic-plugin/lovata-shopaholic-plugin-3d389c3887de07de2a2e0a286e58cab35452facf-zip-8ef9ce.zip",
+                    "reference": "3d389c3887de07de2a2e0a286e58cab35452facf",
+                    "shasum": "75f314c6c9886a1b1f4812b451b25bfbc3b2ac7d"
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                },
+                "time": "2021-07-28T19:53:33+00:00",
+                "type": "october-plugin",
+                "description": "eCommerce plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/tree/1.30.2",
+                    "issues": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/issues"
+                },
+                "funding": [
+                    {
+                        "type": "open_collective",
+                        "url": "https://opencollective.com/oc-shopaholic"
+                    }
+                ],
+                "uid": 33
+            },
+            {
+                "name": "lovata/shopaholic-plugin",
+                "version": "1.30.3",
+                "version_normalized": "1.30.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/shopaholic-plugin/lovata-shopaholic-plugin-ce17c23fdb460bb66a55445e332a5942208447ee-zip-814f15.zip",
+                    "reference": "ce17c23fdb460bb66a55445e332a5942208447ee",
+                    "shasum": "936e8ef3a2e02d96a80794ed91215ccd6dbd2bc9"
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "lovata/toolbox-plugin": "^1.0"
+                },
+                "time": "2021-09-07T20:17:02+00:00",
+                "type": "october-plugin",
+                "description": "eCommerce plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/tree/1.30.3",
+                    "issues": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/issues"
+                },
+                "funding": [
+                    {
+                        "type": "open_collective",
+                        "url": "https://opencollective.com/oc-shopaholic"
+                    }
+                ],
+                "uid": 34
+            },
+            {
+                "name": "lovata/shopaholic-plugin",
+                "version": "1.30.4",
+                "version_normalized": "1.30.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/shopaholic-plugin/lovata-shopaholic-plugin-31cd85cbe8af3e915002e85303755cffa2c3680c-zip-f6802b.zip",
+                    "reference": "31cd85cbe8af3e915002e85303755cffa2c3680c",
+                    "shasum": "eb910d3aab16635bc3fe35c6b64b191d23893d38"
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "lovata/toolbox-plugin": "^1.0"
+                },
+                "time": "2021-12-10T20:10:00+00:00",
+                "type": "october-plugin",
+                "description": "eCommerce plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/tree/1.30.4",
+                    "issues": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/issues"
+                },
+                "funding": [
+                    {
+                        "type": "open_collective",
+                        "url": "https://opencollective.com/oc-shopaholic"
+                    }
+                ],
+                "uid": 35
+            },
+            {
+                "name": "lovata/shopaholic-plugin",
+                "version": "1.30.5",
+                "version_normalized": "1.30.5.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/shopaholic-plugin/lovata-shopaholic-plugin-45dd60c25fa7ce8e396aac9d40a131f0c911110d-zip-adbfba.zip",
+                    "reference": "45dd60c25fa7ce8e396aac9d40a131f0c911110d",
+                    "shasum": "b5e4d6da74a09f58886cb7507f82119ea9e33368"
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "lovata/toolbox-plugin": "^1.0"
+                },
+                "time": "2022-04-05T08:45:55+00:00",
+                "type": "october-plugin",
+                "description": "eCommerce plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/tree/1.30.5",
+                    "issues": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/issues"
+                },
+                "funding": [
+                    {
+                        "type": "open_collective",
+                        "url": "https://opencollective.com/oc-shopaholic"
+                    }
+                ],
+                "uid": 36
+            },
+            {
+                "name": "lovata/shopaholic-plugin",
+                "version": "1.30.6",
+                "version_normalized": "1.30.6.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/shopaholic-plugin/lovata-shopaholic-plugin-10fa4df6a92db134afed00cbed6a87272b3c66b0-zip-b32132.zip",
+                    "reference": "10fa4df6a92db134afed00cbed6a87272b3c66b0",
+                    "shasum": "7d1ad2c160c4f20fcf99810448c338564f31a50d"
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "lovata/toolbox-plugin": "^1.0"
+                },
+                "time": "2022-09-05T19:24:07+00:00",
+                "type": "october-plugin",
+                "description": "eCommerce plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/tree/1.30.6",
+                    "issues": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/issues"
+                },
+                "funding": [
+                    {
+                        "type": "open_collective",
+                        "url": "https://opencollective.com/oc-shopaholic"
+                    }
+                ],
+                "uid": 37
+            },
+            {
+                "name": "lovata/shopaholic-plugin",
+                "version": "1.32.0",
+                "version_normalized": "1.32.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/shopaholic-plugin/lovata-shopaholic-plugin-3cf5b5e4f8550e5b6e064baac1ba51ecd9b254fc-zip-f3a851.zip",
+                    "reference": "3cf5b5e4f8550e5b6e064baac1ba51ecd9b254fc",
+                    "shasum": "d4fde9512254bd2256ece1f3b3e661543480486a"
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "lovata/toolbox-plugin": "^1.0"
+                },
+                "time": "2023-07-03T20:41:49+00:00",
+                "type": "october-plugin",
+                "description": "eCommerce plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/tree/1.32.0",
+                    "issues": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/issues"
+                },
+                "funding": [
+                    {
+                        "type": "open_collective",
+                        "url": "https://opencollective.com/oc-shopaholic"
+                    }
+                ],
+                "uid": 38
+            },
+            {
+                "name": "lovata/shopaholic-plugin",
+                "version": "1.32.1",
+                "version_normalized": "1.32.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/shopaholic-plugin/lovata-shopaholic-plugin-2465422776678258684118381e02bd505e1989d8-zip-43c079.zip",
+                    "reference": "2465422776678258684118381e02bd505e1989d8",
+                    "shasum": "e81bf891cac2c3f912018b80ee7a783c8ef7f5d0"
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "lovata/toolbox-plugin": "^2.1.0"
+                },
+                "time": "2023-07-07T18:56:36+00:00",
+                "type": "october-plugin",
+                "description": "eCommerce plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/tree/1.32.1",
+                    "issues": "https://github.com/oc-shopaholic/oc-shopaholic-plugin/issues"
+                },
+                "funding": [
+                    {
+                        "type": "open_collective",
+                        "url": "https://opencollective.com/oc-shopaholic"
+                    }
+                ],
+                "uid": 39
+            }
+        ]
+    }
+}

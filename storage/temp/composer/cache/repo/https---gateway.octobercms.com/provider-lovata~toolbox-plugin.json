@@ -1,0 +1,2211 @@
+{
+    "packages": {
+        "lovata/toolbox-plugin": [
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-9c7c9cc599c3fcb5512eef5f4ed27a416a4e60f3-zip-b6de07.zip",
+                    "reference": "9c7c9cc599c3fcb5512eef5f4ed27a416a4e60f3",
+                    "shasum": "ae057a512fd5bfd342fc29c414559d1bb6107169"
+                },
+                "require": {
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*"
+                },
+                "time": "2017-10-05T14:03:31+00:00",
+                "type": "library",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/1.0.0",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 1
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-eceb7b83d8cf4627758dca78ceb8c1a94c939d35-zip-8f9459.zip",
+                    "reference": "eceb7b83d8cf4627758dca78ceb8c1a94c939d35",
+                    "shasum": "b7097ebf37774e2876f2d93b2078d5387f7a97ac"
+                },
+                "require": {
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*"
+                },
+                "time": "2017-11-01T12:56:27+00:00",
+                "type": "library",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/1.1.0",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 2
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "1.10.0",
+                "version_normalized": "1.10.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-37a475d44726b7b48cf764cb6dc217db56137a2c-zip-66bb62.zip",
+                    "reference": "37a475d44726b7b48cf764cb6dc217db56137a2c",
+                    "shasum": "c5f6d010c3b87e0b9c99836cf45ab48a58817900"
+                },
+                "require": {
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*"
+                },
+                "time": "2018-06-21T07:14:51+00:00",
+                "type": "library",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/1.10.0",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 3
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "1.10.1",
+                "version_normalized": "1.10.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-1d7253ddc75e5102cf30adfc2de04e4f344b8689-zip-3152fa.zip",
+                    "reference": "1d7253ddc75e5102cf30adfc2de04e4f344b8689",
+                    "shasum": "786b7745676773f0f8c7ddf72b3987998b377be7"
+                },
+                "require": {
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*"
+                },
+                "time": "2018-06-21T07:53:44+00:00",
+                "type": "library",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/1.10.1",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 4
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "1.10.2",
+                "version_normalized": "1.10.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-d28ac284843ce94be983aff30156465d00540e31-zip-8289d6.zip",
+                    "reference": "d28ac284843ce94be983aff30156465d00540e31",
+                    "shasum": "b5885f822fc6d0115dbf57f3f0b85f19f365503c"
+                },
+                "require": {
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*"
+                },
+                "time": "2018-06-24T18:23:44+00:00",
+                "type": "library",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/1.10.2",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 5
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "1.11.0",
+                "version_normalized": "1.11.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-644c0ea92cd94dd416b18fc1b99565a8c8474a07-zip-a0761e.zip",
+                    "reference": "644c0ea92cd94dd416b18fc1b99565a8c8474a07",
+                    "shasum": "4b23b6265dd0f038a9d99628ce21a9198de61a06"
+                },
+                "require": {
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*"
+                },
+                "time": "2018-07-11T06:39:27+00:00",
+                "type": "library",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/1.11.0",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 6
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "1.12.0",
+                "version_normalized": "1.12.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-3e40169f8ec80a4e3ad69c7824d31d58eac2a865-zip-9f7790.zip",
+                    "reference": "3e40169f8ec80a4e3ad69c7824d31d58eac2a865",
+                    "shasum": "bae2ffe336577f874c76ebc3c101ce66dfd40006"
+                },
+                "require": {
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*"
+                },
+                "time": "2018-07-22T08:33:46+00:00",
+                "type": "library",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/1.12.0",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 7
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "1.12.1",
+                "version_normalized": "1.12.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-a1a1fbe00df9035eb9db1c9e8116e27600f66f84-zip-a2133d.zip",
+                    "reference": "a1a1fbe00df9035eb9db1c9e8116e27600f66f84",
+                    "shasum": "c4eee779acf16dc66a7b5c08dcfda69a3e1f7ea8"
+                },
+                "require": {
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*"
+                },
+                "time": "2018-07-27T15:24:02+00:00",
+                "type": "library",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/1.12.1",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 8
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "1.12.2",
+                "version_normalized": "1.12.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-9ae062ee9f7c3267920fab744a0605dadd870445-zip-06818f.zip",
+                    "reference": "9ae062ee9f7c3267920fab744a0605dadd870445",
+                    "shasum": "f8893de9756f909f81a8d4a88fa5cae22d79f820"
+                },
+                "require": {
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*"
+                },
+                "time": "2018-07-30T08:34:03+00:00",
+                "type": "library",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/1.12.2",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 9
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "1.13.0",
+                "version_normalized": "1.13.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-07bee37eb9a0082cd5c9945a9e8336797cde82af-zip-c72514.zip",
+                    "reference": "07bee37eb9a0082cd5c9945a9e8336797cde82af",
+                    "shasum": "8b47137ac4bdbd51121dff041a8e5478a07fa467"
+                },
+                "require": {
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*"
+                },
+                "time": "2018-08-07T11:53:21+00:00",
+                "type": "library",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/1.13.0",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 10
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "1.14.0",
+                "version_normalized": "1.14.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-c4c1bf8704ab790f373fe52030b7d73ec97d84df-zip-6dfed9.zip",
+                    "reference": "c4c1bf8704ab790f373fe52030b7d73ec97d84df",
+                    "shasum": "ac0a2c0f6e5ecd1bf781e1b616dc6b6acad22b45"
+                },
+                "require": {
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*"
+                },
+                "time": "2018-08-08T19:55:07+00:00",
+                "type": "library",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/1.14.0",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 11
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "1.14.1",
+                "version_normalized": "1.14.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-f64ce9a1a8b893f8fac32d7f868b52a86351d63a-zip-128302.zip",
+                    "reference": "f64ce9a1a8b893f8fac32d7f868b52a86351d63a",
+                    "shasum": "aa43bb287e9032041388a0971f34145b1fce4d85"
+                },
+                "require": {
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*"
+                },
+                "time": "2018-09-03T13:17:18+00:00",
+                "type": "library",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/1.14.1",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 12
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "1.15.0",
+                "version_normalized": "1.15.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-3bfaa886b8dd453fb72d77906954419e76d6f841-zip-92cffb.zip",
+                    "reference": "3bfaa886b8dd453fb72d77906954419e76d6f841",
+                    "shasum": "e8a2938a9fab9bfffca362372fe7795a3ebdb9e3"
+                },
+                "require": {
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-hidden": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-type": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*"
+                },
+                "time": "2018-10-15T09:51:43+00:00",
+                "type": "library",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/1.15.0",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 13
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "1.16.0",
+                "version_normalized": "1.16.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-1cb26e6552d24ca25b11a8116c5a0d7f596ba426-zip-20dcca.zip",
+                    "reference": "1cb26e6552d24ca25b11a8116c5a0d7f596ba426",
+                    "shasum": "a95bcc92ef6218fd2f54001c7b824529df5664ec"
+                },
+                "require": {
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-hidden": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-type": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*"
+                },
+                "time": "2018-10-20T14:40:44+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "Toolbox plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/1.16.0",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 14
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "1.17.0",
+                "version_normalized": "1.17.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-bb2d181f269a395e7e5d620d860387677a91c4f5-zip-5e8b39.zip",
+                    "reference": "bb2d181f269a395e7e5d620d860387677a91c4f5",
+                    "shasum": "bc7c513d14ab3ea266d1f60885d8d234b946fef9"
+                },
+                "require": {
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-hidden": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-type": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*"
+                },
+                "time": "2018-10-21T18:55:24+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "Toolbox plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/1.17.0",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 15
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "1.18.0",
+                "version_normalized": "1.18.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-960a40072b1476fcbd71c73dbca9caeafecf3d26-zip-1b5261.zip",
+                    "reference": "960a40072b1476fcbd71c73dbca9caeafecf3d26",
+                    "shasum": "4dadeb61dec689599386565c4ff18748bdc7cb65"
+                },
+                "require": {
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-hidden": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-type": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*"
+                },
+                "time": "2018-11-01T08:28:40+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "Toolbox plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/1.18.0",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 16
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "1.19.0",
+                "version_normalized": "1.19.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-060627e92a5b3e7857a9da2e797d99cd64d5f51b-zip-e3a939.zip",
+                    "reference": "060627e92a5b3e7857a9da2e797d99cd64d5f51b",
+                    "shasum": "6546df368b00fd46bcb030b418c1f51ec06114b1"
+                },
+                "require": {
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-hidden": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-type": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*"
+                },
+                "time": "2018-11-02T14:02:27+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "Toolbox plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/1.19.0",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 17
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "1.2.0",
+                "version_normalized": "1.2.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-714dc9148eb08c2a0b743797ebbfaed7a9bd9d3a-zip-0ecd26.zip",
+                    "reference": "714dc9148eb08c2a0b743797ebbfaed7a9bd9d3a",
+                    "shasum": "5b78e135cbe5adcfaaf71591dbb9badd78c2d708"
+                },
+                "require": {
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*"
+                },
+                "time": "2017-12-06T07:59:18+00:00",
+                "type": "library",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/1.2.0",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 18
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "1.20.0",
+                "version_normalized": "1.20.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-72ac2f5bf9797a7c31930c090866583348e65e29-zip-fd9f36.zip",
+                    "reference": "72ac2f5bf9797a7c31930c090866583348e65e29",
+                    "shasum": "59e275585fdb9ceb2c73d288718a5b498423db3b"
+                },
+                "require": {
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-hidden": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-type": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*"
+                },
+                "time": "2018-11-03T17:38:11+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "Toolbox plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/1.20.0",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 19
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "1.20.1",
+                "version_normalized": "1.20.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-de9abc27175617be7d14f42d5bb27c2cae18201b-zip-da82f2.zip",
+                    "reference": "de9abc27175617be7d14f42d5bb27c2cae18201b",
+                    "shasum": "6e5f537f926a21b6cb2b49ced1450a880960fd73"
+                },
+                "require": {
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-hidden": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-type": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*"
+                },
+                "time": "2018-11-13T12:31:45+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "Toolbox plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/1.20.1",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 20
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "1.21.0",
+                "version_normalized": "1.21.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-5c67f2b546b28fa68dab8c0b78daa3c98066a89f-zip-f0c971.zip",
+                    "reference": "5c67f2b546b28fa68dab8c0b78daa3c98066a89f",
+                    "shasum": "d1feb50b513f6dc5c25deccf255b2d604ccb69e6"
+                },
+                "require": {
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-hidden": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-type": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*"
+                },
+                "time": "2018-11-18T15:23:52+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "Toolbox plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/1.21.0",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 21
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "1.21.1",
+                "version_normalized": "1.21.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-e09143693e474e9a3b1353e707476078b8e3b218-zip-c4ea4f.zip",
+                    "reference": "e09143693e474e9a3b1353e707476078b8e3b218",
+                    "shasum": "63479de8984fb67042e713254377d326a64e1564"
+                },
+                "require": {
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-hidden": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-type": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*"
+                },
+                "time": "2018-12-09T08:07:40+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "Toolbox plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/1.21.1",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 22
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "1.22.0",
+                "version_normalized": "1.22.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-6d1d21ccc66dbbcb11406a4a06584aaa5f742b55-zip-0a7995.zip",
+                    "reference": "6d1d21ccc66dbbcb11406a4a06584aaa5f742b55",
+                    "shasum": "12655255e8ca98f8ed49ecbee7e173514c497ce6"
+                },
+                "require": {
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-hidden": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-type": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*"
+                },
+                "time": "2019-02-26T11:50:44+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "Toolbox plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/1.22.0",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 23
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "1.23.0",
+                "version_normalized": "1.23.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-99c94243a1aa7150f69c72c05a63c0a5d715bd7e-zip-c55fdf.zip",
+                    "reference": "99c94243a1aa7150f69c72c05a63c0a5d715bd7e",
+                    "shasum": "e6d5b9512cf11431f2673a35b98b56873615e619"
+                },
+                "require": {
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-hidden": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-type": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*"
+                },
+                "time": "2019-03-29T06:20:37+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "Toolbox plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/1.23.0",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 24
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "1.24.0",
+                "version_normalized": "1.24.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-5cb53a10df830052c8b56d587468f7a5680dfcd1-zip-32496d.zip",
+                    "reference": "5cb53a10df830052c8b56d587468f7a5680dfcd1",
+                    "shasum": "825a93c13e13e308c75dadf39df85ad80579d2e8"
+                },
+                "require": {
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-hidden": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-type": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*"
+                },
+                "time": "2019-04-22T06:24:08+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "Toolbox plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/1.24.0",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 25
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "1.24.1",
+                "version_normalized": "1.24.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-e28f6cfd63f9091d5a215171568648ca5a0e4716-zip-99bcfa.zip",
+                    "reference": "e28f6cfd63f9091d5a215171568648ca5a0e4716",
+                    "shasum": "9c0c76c641de97d4478929b862d19eea64338861"
+                },
+                "require": {
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-hidden": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-type": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*"
+                },
+                "time": "2019-04-23T14:03:14+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "Toolbox plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/1.24.1",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 26
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "1.25.0",
+                "version_normalized": "1.25.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-717f18a36329c9edd0e69c5e48ded51340006889-zip-812106.zip",
+                    "reference": "717f18a36329c9edd0e69c5e48ded51340006889",
+                    "shasum": "be5defc3589950f156655b410a3de8e5c9066697"
+                },
+                "require": {
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-hidden": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-type": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*"
+                },
+                "time": "2019-05-29T09:10:04+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "Toolbox plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/1.25.0",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 27
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "1.25.1",
+                "version_normalized": "1.25.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-1851e27e59b2b91402b084be708f7b7fd61e6f95-zip-2de5bd.zip",
+                    "reference": "1851e27e59b2b91402b084be708f7b7fd61e6f95",
+                    "shasum": "bf99e5aa9ddcd59f4fc0b460ef41f15c3d07c0e1"
+                },
+                "require": {
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-hidden": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-type": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*"
+                },
+                "time": "2019-05-29T11:54:56+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "Toolbox plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/1.25.1",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 28
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "1.25.2",
+                "version_normalized": "1.25.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-87f8a6b8a302217ee7824260f2a70b387e714ab4-zip-0f8252.zip",
+                    "reference": "87f8a6b8a302217ee7824260f2a70b387e714ab4",
+                    "shasum": "6a6d21312e8484b35e972a3f9030f81a920b3906"
+                },
+                "require": {
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-hidden": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-type": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*"
+                },
+                "time": "2019-05-31T11:32:50+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "Toolbox plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/1.25.2",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 29
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "1.25.3",
+                "version_normalized": "1.25.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-2e935ee59e68a40dd02cddc7a44058d16af84dc6-zip-6576f9.zip",
+                    "reference": "2e935ee59e68a40dd02cddc7a44058d16af84dc6",
+                    "shasum": "fb08eec5ee421f847d0c5b1eed52316b720402f2"
+                },
+                "require": {
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-hidden": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-type": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*"
+                },
+                "time": "2019-06-26T12:26:05+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "Toolbox plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/1.25.3",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 30
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "1.26.0",
+                "version_normalized": "1.26.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-716352ba0641decad600b096c16e957323951f62-zip-eed1a2.zip",
+                    "reference": "716352ba0641decad600b096c16e957323951f62",
+                    "shasum": "c0adc5420b43bd87f4026964a83a1aa3db7d717d"
+                },
+                "require": {
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-hidden": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-type": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*"
+                },
+                "time": "2019-12-19T07:41:50+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "Toolbox plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/1.26.0",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 31
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "1.26.1",
+                "version_normalized": "1.26.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-72062ea84a0fd5219b41f15404d63257f16c02d9-zip-8c1e4d.zip",
+                    "reference": "72062ea84a0fd5219b41f15404d63257f16c02d9",
+                    "shasum": "52a0b81d9466d7fe9b223aaa1c1d8f83d740b2e5"
+                },
+                "require": {
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-hidden": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-type": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*"
+                },
+                "time": "2019-12-24T07:50:19+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "Toolbox plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/1.26.1",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 32
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "1.26.2",
+                "version_normalized": "1.26.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-70892fb003daee38822867ac2d3861b7a1d631df-zip-03e80a.zip",
+                    "reference": "70892fb003daee38822867ac2d3861b7a1d631df",
+                    "shasum": "b7c97df407c9355a29a0b162cb663f3b248bedaf"
+                },
+                "require": {
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-hidden": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-type": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*"
+                },
+                "time": "2020-02-04T19:35:31+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "Toolbox plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/1.26.2",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 33
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "1.27.0",
+                "version_normalized": "1.27.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-58432ca1a825bf5e1c5b5fcd0e22fb82700d3a78-zip-221947.zip",
+                    "reference": "58432ca1a825bf5e1c5b5fcd0e22fb82700d3a78",
+                    "shasum": "5e7407939a86d48a58fb6d86ab8a0ecebf7de19f"
+                },
+                "require": {
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-hidden": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-type": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*"
+                },
+                "time": "2020-02-05T10:27:13+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "Toolbox plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/1.27.0",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 34
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "1.28.0",
+                "version_normalized": "1.28.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-3b49ebece17b2ed71a71f8fa0fa2a8e71dbf41da-zip-def72b.zip",
+                    "reference": "3b49ebece17b2ed71a71f8fa0fa2a8e71dbf41da",
+                    "shasum": "b994d6fd2ea3716126713f11a012775905990fc3"
+                },
+                "require": {
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-hidden": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-type": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*"
+                },
+                "time": "2020-02-14T11:38:56+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "Toolbox plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/1.28.0",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 35
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "1.28.1",
+                "version_normalized": "1.28.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-79fe8ecb5476f4b0016b491ed850197d51f05119-zip-4468b4.zip",
+                    "reference": "79fe8ecb5476f4b0016b491ed850197d51f05119",
+                    "shasum": "4a367b0a0abfb9f309054f7583248ca44cf7d82b"
+                },
+                "require": {
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-hidden": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-type": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*"
+                },
+                "time": "2020-03-02T13:50:19+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "Toolbox plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/1.28.1",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 36
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "1.29.0",
+                "version_normalized": "1.29.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-c853ce8813eb2285d1b6ad7de657ab2269aeb261-zip-cc43ae.zip",
+                    "reference": "c853ce8813eb2285d1b6ad7de657ab2269aeb261",
+                    "shasum": "c7a4d75b181d3981b95c4d2eadd28f3163bc6af1"
+                },
+                "require": {
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-hidden": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-type": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*"
+                },
+                "time": "2020-03-12T10:48:55+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "Toolbox plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/1.29.0",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 37
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "1.3.0",
+                "version_normalized": "1.3.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-20b00fa65802bc84b3a58bfcfe47efe8eeca2197-zip-48f627.zip",
+                    "reference": "20b00fa65802bc84b3a58bfcfe47efe8eeca2197",
+                    "shasum": "5c83cf8740f05cfe190e4e9d7409e1617bf3bd01"
+                },
+                "require": {
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*"
+                },
+                "time": "2018-01-08T07:45:04+00:00",
+                "type": "library",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/1.3.0",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 38
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "1.3.1",
+                "version_normalized": "1.3.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-a38752e819feaf5b7150a338b40c4b5826fab802-zip-009f60.zip",
+                    "reference": "a38752e819feaf5b7150a338b40c4b5826fab802",
+                    "shasum": "6b337d042eb0547c55948730de73e48422fbac43"
+                },
+                "require": {
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*"
+                },
+                "time": "2018-01-10T09:37:18+00:00",
+                "type": "library",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/1.3.1",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 39
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "1.3.2",
+                "version_normalized": "1.3.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-6b1f12530baa65805ac535bce4cabb3b662077cf-zip-a44eff.zip",
+                    "reference": "6b1f12530baa65805ac535bce4cabb3b662077cf",
+                    "shasum": "f2a771e1d0d4973d665b6e86caa4b9000418d0cf"
+                },
+                "require": {
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*"
+                },
+                "time": "2018-01-11T11:17:12+00:00",
+                "type": "library",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/1.3.2",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 40
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "1.3.3",
+                "version_normalized": "1.3.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-d06cbc338a38bad18aa29f76baad88eb7f3e11f2-zip-aae582.zip",
+                    "reference": "d06cbc338a38bad18aa29f76baad88eb7f3e11f2",
+                    "shasum": "a79580385723a8c7f096105ccfe606060018eec5"
+                },
+                "require": {
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*"
+                },
+                "time": "2018-01-12T07:53:01+00:00",
+                "type": "library",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/1.3.3",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 41
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "1.30.0",
+                "version_normalized": "1.30.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-128fe54fd88263d206de7c0d0c44f8b7e4723cbf-zip-51fa0d.zip",
+                    "reference": "128fe54fd88263d206de7c0d0c44f8b7e4723cbf",
+                    "shasum": "293d5f13776446a869d1772d95b8dc39ed12af17"
+                },
+                "require": {
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-hidden": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-type": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*"
+                },
+                "time": "2020-12-25T12:06:38+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "Toolbox plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/1.30.0",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 42
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "1.31.0",
+                "version_normalized": "1.31.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-74c21f81ee957f00f21d9711801b2cdf4dd24685-zip-1703be.zip",
+                    "reference": "74c21f81ee957f00f21d9711801b2cdf4dd24685",
+                    "shasum": "da2a407f20ac79fa289187f8eaec4dc8ccbb1a3e"
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-hidden": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-type": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*"
+                },
+                "time": "2021-05-02T07:31:10+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "Toolbox plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/1.31.0",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 43
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "1.32.0",
+                "version_normalized": "1.32.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-33b4e5b8e0cdf974255cfaaf4cf24ab8428be24b-zip-0755c5.zip",
+                    "reference": "33b4e5b8e0cdf974255cfaaf4cf24ab8428be24b",
+                    "shasum": "c3623a8497ce1be415e264d42e0c14d7ce15381e"
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-hidden": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-type": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*"
+                },
+                "time": "2021-05-02T13:40:30+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "Toolbox plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/1.32.0",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 44
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "1.33.0",
+                "version_normalized": "1.33.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-215631a0fde20d6068a6f96e72ec8aa37dc3970b-zip-719b6e.zip",
+                    "reference": "215631a0fde20d6068a6f96e72ec8aa37dc3970b",
+                    "shasum": "38e80ab2449b4d8576d05538fdb454d7871c47b1"
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-hidden": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-type": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*"
+                },
+                "time": "2021-05-04T19:43:26+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "Toolbox plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/1.33.0",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 45
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "1.33.1",
+                "version_normalized": "1.33.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-1af36cf8605ff2f842e57b61133a1f7df04cce1c-zip-9a244b.zip",
+                    "reference": "1af36cf8605ff2f842e57b61133a1f7df04cce1c",
+                    "shasum": "630f883df187f992c7a64a98aaeb2bd3d22e9ba5"
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-hidden": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-type": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*"
+                },
+                "time": "2021-05-04T19:50:46+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "Toolbox plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/1.33.1",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 46
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "1.34.0",
+                "version_normalized": "1.34.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-71e004078cae4bd3de7c515f9543d88d8246c7da-zip-0d14a6.zip",
+                    "reference": "71e004078cae4bd3de7c515f9543d88d8246c7da",
+                    "shasum": "1197ce00b10a4788d9bb6a23b3676da71b2cb5ba"
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-hidden": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-type": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*"
+                },
+                "time": "2021-05-18T19:59:55+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "Toolbox plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/1.34.0",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 47
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "1.34.1",
+                "version_normalized": "1.34.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-c5e64a4201110c50eaa7a13e1d6de014a86b1565-zip-03e063.zip",
+                    "reference": "c5e64a4201110c50eaa7a13e1d6de014a86b1565",
+                    "shasum": "653e02e991aaae6f062450928be69520f70d1e44"
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-hidden": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-type": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*"
+                },
+                "time": "2022-04-05T08:31:37+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "Toolbox plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/1.34.1",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 48
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "1.34.2",
+                "version_normalized": "1.34.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-535f45873601f2d7a41472aa795fc49c1db82917-zip-bc997b.zip",
+                    "reference": "535f45873601f2d7a41472aa795fc49c1db82917",
+                    "shasum": "6486b9477a0a2c100a558509582ef95561ccaffb"
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-hidden": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-type": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*"
+                },
+                "time": "2022-07-22T13:24:18+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "Toolbox plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/1.34.2",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 49
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "1.34.3",
+                "version_normalized": "1.34.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-185b73973e72c4751514f916bcccc5358fdb52d2-zip-4955c8.zip",
+                    "reference": "185b73973e72c4751514f916bcccc5358fdb52d2",
+                    "shasum": "2e62854838833696a8f394a08a55459432176a51"
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-hidden": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-type": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*"
+                },
+                "time": "2022-07-25T14:08:07+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "Toolbox plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/1.34.3",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 50
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "1.34.4",
+                "version_normalized": "1.34.4.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-dcddaee1fe1616bee52c4bdadee6d0e8fade008b-zip-2f9d8b.zip",
+                    "reference": "dcddaee1fe1616bee52c4bdadee6d0e8fade008b",
+                    "shasum": "3081d6ad0899e12ae3ba1729b1d68fc481d57b81"
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-hidden": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-type": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*"
+                },
+                "time": "2023-03-04T23:06:33+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "Toolbox plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/1.34.4",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 51
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "1.4.0",
+                "version_normalized": "1.4.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-3efa21b2ff6250f1a91bd3c3f41e3848a72eb2ee-zip-a9e80e.zip",
+                    "reference": "3efa21b2ff6250f1a91bd3c3f41e3848a72eb2ee",
+                    "shasum": "d9fb8a032210f2b507226c78a78fab459e218cd3"
+                },
+                "require": {
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*"
+                },
+                "time": "2018-01-14T15:33:03+00:00",
+                "type": "library",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/1.4.0",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 52
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "1.5.0",
+                "version_normalized": "1.5.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-2619d1de5d24f62b7268f8f0f68fe5773cb7f654-zip-94de3f.zip",
+                    "reference": "2619d1de5d24f62b7268f8f0f68fe5773cb7f654",
+                    "shasum": "008190888e1a8195add85c8e791833e334e6dce4"
+                },
+                "require": {
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*"
+                },
+                "time": "2018-02-21T19:04:24+00:00",
+                "type": "library",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/1.5.0",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 53
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "1.6.0",
+                "version_normalized": "1.6.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-19897f0cd6a747c46f555ba0b4d28b5c60feb521-zip-f02c08.zip",
+                    "reference": "19897f0cd6a747c46f555ba0b4d28b5c60feb521",
+                    "shasum": "98b6443fc1dd3fdb75384e829e4482ab79e8c4e5"
+                },
+                "require": {
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*"
+                },
+                "time": "2018-03-09T13:19:22+00:00",
+                "type": "library",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/1.6.0",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 54
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "1.7.0",
+                "version_normalized": "1.7.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-d88234d790d864bdbf6472386885df65403d65e2-zip-f7ac79.zip",
+                    "reference": "d88234d790d864bdbf6472386885df65403d65e2",
+                    "shasum": "cf76dc0afef7c6a1f32715643daa981766f47dab"
+                },
+                "require": {
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*"
+                },
+                "time": "2018-03-11T19:43:50+00:00",
+                "type": "library",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/1.7.0",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 55
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "1.8.0",
+                "version_normalized": "1.8.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-420833b9cbd0dc9ffda49c1df332192a2a93a43b-zip-315112.zip",
+                    "reference": "420833b9cbd0dc9ffda49c1df332192a2a93a43b",
+                    "shasum": "fe2b4212271ff2886f8ce3a1da12579b818b66b1"
+                },
+                "require": {
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*"
+                },
+                "time": "2018-03-14T18:05:06+00:00",
+                "type": "library",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/1.8.0",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 56
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "1.9.0",
+                "version_normalized": "1.9.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-2732ffeb38a7dbc5d17683f48a1215ff97ae732a-zip-d643a2.zip",
+                    "reference": "2732ffeb38a7dbc5d17683f48a1215ff97ae732a",
+                    "shasum": "933f7e018df38fa5ce3581b2058e2c1f81b703ff"
+                },
+                "require": {
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*"
+                },
+                "time": "2018-04-17T13:59:20+00:00",
+                "type": "library",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/1.9.0",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 57
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "1.9.1",
+                "version_normalized": "1.9.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-6f40303114b80e600200309af26658c14796ddc7-zip-ef3cd4.zip",
+                    "reference": "6f40303114b80e600200309af26658c14796ddc7",
+                    "shasum": "792fdb62ca5ed2d4673da5947674823e99d0b421"
+                },
+                "require": {
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*"
+                },
+                "time": "2018-04-17T18:22:00+00:00",
+                "type": "library",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/1.9.1",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 58
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "2.0.0",
+                "version_normalized": "2.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-217edafb45d0c6499c05e4e0e770264b2a8bdb86-zip-efff86.zip",
+                    "reference": "217edafb45d0c6499c05e4e0e770264b2a8bdb86",
+                    "shasum": "24acd288a863e0af4c567bc497a8d5c91410603d"
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-hidden": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-type": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*",
+                    "october/rain": ">=3.1"
+                },
+                "time": "2023-05-15T11:10:06+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "Toolbox plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/2.0.0",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 59
+            },
+            {
+                "name": "lovata/toolbox-plugin",
+                "version": "2.1.0",
+                "version_normalized": "2.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://gateway.octobercms.com/composer/dist/lovata/toolbox-plugin/lovata-toolbox-plugin-a97e60328df7d96b845e1decb0947c9a1789b6f7-zip-ea8d32.zip",
+                    "reference": "a97e60328df7d96b845e1decb0947c9a1789b6f7",
+                    "shasum": "6bdfa8c41d21247f1ddcbc8f7fa3cad521cd27be"
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "kharanenka/laravel-cache-helper": "1.0.*",
+                    "kharanenka/laravel-scope-active": "1.0.*",
+                    "kharanenka/laravel-scope-category-belongs-to": "1.0.*",
+                    "kharanenka/laravel-scope-code": "1.0.*",
+                    "kharanenka/laravel-scope-date": "1.0.*",
+                    "kharanenka/laravel-scope-external-id": "1.0.*",
+                    "kharanenka/laravel-scope-hidden": "1.0.*",
+                    "kharanenka/laravel-scope-moderation": "1.0.*",
+                    "kharanenka/laravel-scope-name": "1.0.*",
+                    "kharanenka/laravel-scope-slug": "1.0.*",
+                    "kharanenka/laravel-scope-type": "1.0.*",
+                    "kharanenka/laravel-scope-user-belongs-to": "1.0.*",
+                    "kharanenka/oc-data-file-model": "1.*",
+                    "kharanenka/oc-pagination": "1.0.*",
+                    "kharanenka/php-result-store": "2.*",
+                    "october/rain": ">=3.1"
+                },
+                "time": "2023-06-27T13:56:12+00:00",
+                "type": "october-plugin",
+                "license": [
+                    "GPL-3.0-only"
+                ],
+                "description": "Toolbox plugin for October CMS",
+                "support": {
+                    "source": "https://github.com/oc-shopaholic/oc-toolbox-plugin/tree/2.1.0",
+                    "issues": "https://github.com/oc-shopaholic/oc-toolbox-plugin/issues"
+                },
+                "uid": 60
+            }
+        ]
+    }
+}

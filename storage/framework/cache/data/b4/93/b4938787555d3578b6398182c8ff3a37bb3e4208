@@ -1,0 +1,77 @@
+1692087470a:1:{s:12:"site/nav.htm";a:7:{s:8:"fileName";s:12:"site/nav.htm";s:7:"content";s:1738:"[backendLink]
+[sitePicker]
+==
+{% set activeNavLink = activeNavLink|default(this.page.id) %}
+
+<li class="nav-item">
+    <a class="nav-link {{ activeNavLink == 'blog' ? 'active' }}" href="{{ 'blog/index'|page }}">Blog</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link {{ activeNavLink == 'wiki' ? 'active' }}" href="{{ 'wiki/index'|page }}">Wiki</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link {{ activeNavLink == 'about' ? 'active' }}" href="{{ 'about'|page }}">About</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link {{ activeNavLink == 'contact' ? 'active' }}" href="{{ 'contact'|page }}">Contact</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link {{ activeNavLink == 'components' ? 'active' }}" href="{{ 'components'|page }}">Components Demo</a>
+</li>
+{% if sitePicker.isEnabled %}
+    <li class="nav-item dropdown">
+        <a class="btn btn-outline-light dropdown-toggle" href="{{ ''|page }}" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            {{ this.site.name|default('Sites') }}
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            {% for site in sitePicker.sites %}
+                <li><a class="dropdown-item {{ this.site.code == site.code ? 'active' }}" href="{{ site.url }}">{{ site.name }}</a></li>
+            {% endfor %}
+            {% if backendUrl %}
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="{{ backendUrl }}">Backend Area</a></li>
+            {% endif %}
+        </ul>
+    </li>
+{% elseif backendUrl %}
+    <li class="nav-item">
+        <a class="btn btn-outline-light" href="{{ backendUrl }}" target="backend">Backend Area</a>
+    </li>
+{% endif %}
+";s:5:"mtime";i:1688701776;s:6:"markup";s:1707:"{% set activeNavLink = activeNavLink|default(this.page.id) %}
+
+<li class="nav-item">
+    <a class="nav-link {{ activeNavLink == 'blog' ? 'active' }}" href="{{ 'blog/index'|page }}">Blog</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link {{ activeNavLink == 'wiki' ? 'active' }}" href="{{ 'wiki/index'|page }}">Wiki</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link {{ activeNavLink == 'about' ? 'active' }}" href="{{ 'about'|page }}">About</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link {{ activeNavLink == 'contact' ? 'active' }}" href="{{ 'contact'|page }}">Contact</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link {{ activeNavLink == 'components' ? 'active' }}" href="{{ 'components'|page }}">Components Demo</a>
+</li>
+{% if sitePicker.isEnabled %}
+    <li class="nav-item dropdown">
+        <a class="btn btn-outline-light dropdown-toggle" href="{{ ''|page }}" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            {{ this.site.name|default('Sites') }}
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            {% for site in sitePicker.sites %}
+                <li><a class="dropdown-item {{ this.site.code == site.code ? 'active' }}" href="{{ site.url }}">{{ site.name }}</a></li>
+            {% endfor %}
+            {% if backendUrl %}
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="{{ backendUrl }}">Backend Area</a></li>
+            {% endif %}
+        </ul>
+    </li>
+{% elseif backendUrl %}
+    <li class="nav-item">
+        <a class="btn btn-outline-light" href="{{ backendUrl }}" target="backend">Backend Area</a>
+    </li>
+{% endif %}";s:4:"code";N;s:11:"backendLink";a:0:{}s:10:"sitePicker";a:0:{}}}

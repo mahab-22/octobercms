@@ -1,0 +1,14 @@
+1692108585a:1:{s:31:"helpers/random-avatar-image.htm";a:5:{s:8:"fileName";s:31:"helpers/random-avatar-image.htm";s:7:"content";s:166:"{% set images = [
+    'avatar-1',
+    'avatar-2',
+    'avatar-3',
+    'avatar-4',
+    'avatar-5'
+] %}{{ ('assets/images/avatars/' ~ random(images) ~ '.png')|theme }}
+";s:5:"mtime";i:1688701776;s:6:"markup";s:165:"{% set images = [
+    'avatar-1',
+    'avatar-2',
+    'avatar-3',
+    'avatar-4',
+    'avatar-5'
+] %}{{ ('assets/images/avatars/' ~ random(images) ~ '.png')|theme }}";s:4:"code";N;}}

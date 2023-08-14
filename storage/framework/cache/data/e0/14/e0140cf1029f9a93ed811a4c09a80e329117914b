@@ -1,0 +1,100 @@
+1692087470a:1:{s:14:"components.htm";a:11:{s:8:"fileName";s:14:"components.htm";s:7:"content";s:2364:"##
+title = "Components Demo"
+url = "/components"
+layout = "default"
+meta_title = "CMS Component Demo"
+
+[demoTodo]
+max = 3
+addDefault = 1
+
+[resources]
+less[] = "pages/components.less"
+vars[activeNavLink] = 'demo'
+vars[blueFooterStyle] = 1
+vars[howItsMadeCmsTemplate] = 'cms:cms-page:components.htm'
+==
+<div class="container pt-5">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <div class="text-center py-3">
+                <h1 class="mb-4">CMS Component Demo</h1>
+                <p class="lead">Plugins can provide CMS components, simple building blocks that can enrich pages, layouts, and partials. Check out the To Do example below.</p>
+            </div>
+        </div>
+        <div class="col-md-6 offset-md-3">
+            <div class="plugins-component-container pb-5">
+                {% component 'demoTodo' %}
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Page Explanation -->
+<div class="explanation plugins-component-explanation">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8 offset-sm-2">
+                <h3>HTML Markup for that example</h3>
+
+                <div class="code-block mb-4">
+                    <pre>{% autoescape %}{{ "{% component 'demoTodo' %}" }}{% endautoescape %}</pre>
+                </div>
+
+                <p>Wait, only one line is needed? Yes! CMS components are simple building blocks that can be used with a small amount of code. Components encapsulate PHP code and partials and can be included in a page, layout or partial with a single line of code. By sharing plugins between multiple projects, you can reuse CMS components and be more productive. The <code>demoTodo</code> component used here is provided by the plugin called <em>October\Demo</em>, you can find it in the <em>plugins/october/demo</em> folder.</p>
+
+                <div class="py-4">
+                    <p>
+                        <a href="https://docs.octobercms.com/3.x/cms/themes/components.html" target="_blank" class="btn btn-primary btn-lg btn-pill">
+                            Learn more about CMS Components
+                        </a>
+                    </p>
+                </div>
+                <div class="explanation-decoration-1"></div>
+                <div class="explanation-decoration-2"></div>
+            </div>
+        </div>
+    </div>
+</div>
+";s:5:"mtime";i:1688701776;s:6:"markup";s:2062:"<div class="container pt-5">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <div class="text-center py-3">
+                <h1 class="mb-4">CMS Component Demo</h1>
+                <p class="lead">Plugins can provide CMS components, simple building blocks that can enrich pages, layouts, and partials. Check out the To Do example below.</p>
+            </div>
+        </div>
+        <div class="col-md-6 offset-md-3">
+            <div class="plugins-component-container pb-5">
+                {% component 'demoTodo' %}
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Page Explanation -->
+<div class="explanation plugins-component-explanation">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8 offset-sm-2">
+                <h3>HTML Markup for that example</h3>
+
+                <div class="code-block mb-4">
+                    <pre>{% autoescape %}{{ "{% component 'demoTodo' %}" }}{% endautoescape %}</pre>
+                </div>
+
+                <p>Wait, only one line is needed? Yes! CMS components are simple building blocks that can be used with a small amount of code. Components encapsulate PHP code and partials and can be included in a page, layout or partial with a single line of code. By sharing plugins between multiple projects, you can reuse CMS components and be more productive. The <code>demoTodo</code> component used here is provided by the plugin called <em>October\Demo</em>, you can find it in the <em>plugins/october/demo</em> folder.</p>
+
+                <div class="py-4">
+                    <p>
+                        <a href="https://docs.octobercms.com/3.x/cms/themes/components.html" target="_blank" class="btn btn-primary btn-lg btn-pill">
+                            Learn more about CMS Components
+                        </a>
+                    </p>
+                </div>
+                <div class="explanation-decoration-1"></div>
+                <div class="explanation-decoration-2"></div>
+            </div>
+        </div>
+    </div>
+</div>";s:4:"code";N;s:5:"title";s:15:"Components Demo";s:3:"url";s:11:"/components";s:6:"layout";s:7:"default";s:10:"meta_title";s:18:"CMS Component Demo";s:8:"demoTodo";a:2:{s:3:"max";s:1:"3";s:10:"addDefault";s:1:"1";}s:9:"resources";a:2:{s:4:"less";a:1:{i:0;s:21:"pages/components.less";}s:4:"vars";a:3:{s:13:"activeNavLink";s:4:"demo";s:15:"blueFooterStyle";s:1:"1";s:21:"howItsMadeCmsTemplate";s:27:"cms:cms-page:components.htm";}}}}

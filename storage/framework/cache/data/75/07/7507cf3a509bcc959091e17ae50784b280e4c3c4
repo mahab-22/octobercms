@@ -1,0 +1,75 @@
+1692087470a:1:{s:15:"blog/search.htm";a:11:{s:8:"fileName";s:15:"blog/search.htm";s:7:"content";s:1514:"##
+url = "/blog/search"
+layout = "default"
+title = "Search Blog Posts"
+meta_title = "Search - Blog"
+
+[collection blog]
+handle = "Blog\Post"
+
+[resources]
+vars[activeNavLink] = 'blog'
+vars[howItsMadeCmsTemplate] = 'cms:cms-page:blog/search.htm'
+vars[howItsMadeTailorBlueprint] = 'tailor:tailor-blueprint:blog/post.yaml'
+vars[howItsMadeTailorContent] = 'entries/blog_post'
+==
+{% set searchTerm = get('term')|trim %}
+{% set posts = blog.searchWhere(searchTerm, ['title', 'content']).paginate(16) %}
+{% put pageTitle=searchTerm ~ ' - Search Results' %}
+
+<div class="container">
+    <header>
+        <h1>{{ searchTerm }} - Search Results</h1>
+    </header>
+    <div class="row">
+        <div class="col-md-12">
+            <form class="mb-5">
+                <div class="input-group">
+                    <div class="form-control-search">
+                        <input type="text" name="term" class="form-control" placeholder="Search" value="{{ searchTerm }}">
+                        <span class="search-icon"></span>
+                    </div>
+                </div>
+            </form>
+
+            <div class="blog-featured row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-4 g-3 pb-5">
+                {% for post in posts %}
+                    {% partial 'blog/post-card' post=post %}
+                {% endfor %}
+            </div>
+            <nav class="blog-pagination" aria-label="Pagination">
+                {{ pager(posts, { withQuery: true }) }}
+            </nav>
+        </div>
+    </div>
+</div>
+";s:5:"mtime";i:1688701776;s:6:"markup";s:1140:"{% set searchTerm = get('term')|trim %}
+{% set posts = blog.searchWhere(searchTerm, ['title', 'content']).paginate(16) %}
+{% put pageTitle=searchTerm ~ ' - Search Results' %}
+
+<div class="container">
+    <header>
+        <h1>{{ searchTerm }} - Search Results</h1>
+    </header>
+    <div class="row">
+        <div class="col-md-12">
+            <form class="mb-5">
+                <div class="input-group">
+                    <div class="form-control-search">
+                        <input type="text" name="term" class="form-control" placeholder="Search" value="{{ searchTerm }}">
+                        <span class="search-icon"></span>
+                    </div>
+                </div>
+            </form>
+
+            <div class="blog-featured row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-4 g-3 pb-5">
+                {% for post in posts %}
+                    {% partial 'blog/post-card' post=post %}
+                {% endfor %}
+            </div>
+            <nav class="blog-pagination" aria-label="Pagination">
+                {{ pager(posts, { withQuery: true }) }}
+            </nav>
+        </div>
+    </div>
+</div>";s:4:"code";N;s:3:"url";s:12:"/blog/search";s:6:"layout";s:7:"default";s:5:"title";s:17:"Search Blog Posts";s:10:"meta_title";s:13:"Search - Blog";s:15:"collection blog";a:1:{s:6:"handle";s:9:"Blog\Post";}s:9:"resources";a:1:{s:4:"vars";a:4:{s:13:"activeNavLink";s:4:"blog";s:21:"howItsMadeCmsTemplate";s:28:"cms:cms-page:blog/search.htm";s:25:"howItsMadeTailorBlueprint";s:38:"tailor:tailor-blueprint:blog/post.yaml";s:23:"howItsMadeTailorContent";s:17:"entries/blog_post";}}}}

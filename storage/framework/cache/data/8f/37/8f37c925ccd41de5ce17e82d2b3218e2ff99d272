@@ -1,0 +1,36 @@
+1692087470a:1:{s:21:"site/how-its-made.htm";a:6:{s:8:"fileName";s:21:"site/how-its-made.htm";s:7:"content";s:884:"[backendLink]
+==
+{% if backendUrl and howItsMadeCmsTemplate %}
+    <div class="how-its-made init">
+        <div>
+            <p>Wondering how this page is made? View the
+                {% if howItsMadeCmsTemplate|default(false) %}
+                    <a target="_blank" href="{{ backendUrl ~ '/editor?open=' ~ howItsMadeCmsTemplate }}">CMS Template</a>
+                {% endif %}
+                {% if howItsMadeTailorBlueprint|default(false) %}
+                    •  <a target="_blank" href="{{ backendUrl ~ '/editor?open=' ~ howItsMadeTailorBlueprint }}">Tailor Blueprint</a>
+                {% endif %}
+                {% if howItsMadeTailorContent|default(false) %}
+                    •  <a target="_blank" href="{{ backendUrl ~ '/tailor/' ~ howItsMadeTailorContent }}">Tailor Content</a>
+                {% endif %}
+            </p>
+        </div>
+    </div>
+{% endif %}
+";s:5:"mtime";i:1688701776;s:6:"markup";s:866:"{% if backendUrl and howItsMadeCmsTemplate %}
+    <div class="how-its-made init">
+        <div>
+            <p>Wondering how this page is made? View the
+                {% if howItsMadeCmsTemplate|default(false) %}
+                    <a target="_blank" href="{{ backendUrl ~ '/editor?open=' ~ howItsMadeCmsTemplate }}">CMS Template</a>
+                {% endif %}
+                {% if howItsMadeTailorBlueprint|default(false) %}
+                    •  <a target="_blank" href="{{ backendUrl ~ '/editor?open=' ~ howItsMadeTailorBlueprint }}">Tailor Blueprint</a>
+                {% endif %}
+                {% if howItsMadeTailorContent|default(false) %}
+                    •  <a target="_blank" href="{{ backendUrl ~ '/tailor/' ~ howItsMadeTailorContent }}">Tailor Content</a>
+                {% endif %}
+            </p>
+        </div>
+    </div>
+{% endif %}";s:4:"code";N;s:11:"backendLink";a:0:{}}}

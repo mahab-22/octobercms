@@ -1,0 +1,46 @@
+1692108584a:1:{s:20:"wiki/sidebar-toc.htm";a:5:{s:8:"fileName";s:20:"wiki/sidebar-toc.htm";s:7:"content";s:1076:"{% macro render_toc(articles, activeSlug) %}
+    {% for article in articles %}
+        {% set hasChildren = article.children %}
+        {% set isActive = article.fullslug == activeSlug %}
+        <li class="{{ hasChildren ? 'collapsible' }} {{ isActive ? 'active' }}">
+            <a href="#tocItem{{ article.id }}" class="collapse-caret {{ not isActive ? 'collapsed' }}" data-bs-toggle="collapse"></a>
+            <a class="mb-1 d-block" href="{{ 'wiki/article'|page({ fullslug: article.fullslug, id: article.id }) }}" class="label">{{ article.title }}</a>
+            {% if hasChildren %}
+                <ul id="tocItem{{ article.id }}" class="collapse {{ isActive ? 'show' }}">
+                    {% if article.children %}
+                        {{ _self.render_toc(article.children, activeSlug) }}
+                    {% endif %}
+                </ul>
+            {% endif %}
+        </li>
+    {% endfor %}
+{% endmacro %}
+
+{% import _self as nav %}
+
+<ul class="bullet-list">
+    {{ nav.render_toc(articles, activeSlug|default(this.param.fullslug|default(''))) }}
+</ul>
+";s:5:"mtime";i:1688701776;s:6:"markup";s:1075:"{% macro render_toc(articles, activeSlug) %}
+    {% for article in articles %}
+        {% set hasChildren = article.children %}
+        {% set isActive = article.fullslug == activeSlug %}
+        <li class="{{ hasChildren ? 'collapsible' }} {{ isActive ? 'active' }}">
+            <a href="#tocItem{{ article.id }}" class="collapse-caret {{ not isActive ? 'collapsed' }}" data-bs-toggle="collapse"></a>
+            <a class="mb-1 d-block" href="{{ 'wiki/article'|page({ fullslug: article.fullslug, id: article.id }) }}" class="label">{{ article.title }}</a>
+            {% if hasChildren %}
+                <ul id="tocItem{{ article.id }}" class="collapse {{ isActive ? 'show' }}">
+                    {% if article.children %}
+                        {{ _self.render_toc(article.children, activeSlug) }}
+                    {% endif %}
+                </ul>
+            {% endif %}
+        </li>
+    {% endfor %}
+{% endmacro %}
+
+{% import _self as nav %}
+
+<ul class="bullet-list">
+    {{ nav.render_toc(articles, activeSlug|default(this.param.fullslug|default(''))) }}
+</ul>";s:4:"code";N;}}

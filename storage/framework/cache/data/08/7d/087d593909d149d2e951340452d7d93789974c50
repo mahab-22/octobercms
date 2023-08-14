@@ -1,0 +1,12 @@
+1692108585a:1:{s:22:"blocks/image-slice.htm";a:6:{s:8:"fileName";s:22:"blocks/image-slice.htm";s:7:"content";s:265:"##
+[resources]
+less[] = "blocks/hero-image.less"
+==
+{% set heroImage = block.image ? block.image|media : 'assets/images/stock/desks-cropped.png'|theme %}
+
+<div class="block-hero-image" style="background-image:url('{{ heroImage }}')"></div>
+<div class="pb-5"></div>
+";s:5:"mtime";i:1688701776;s:6:"markup";s:212:"{% set heroImage = block.image ? block.image|media : 'assets/images/stock/desks-cropped.png'|theme %}
+
+<div class="block-hero-image" style="background-image:url('{{ heroImage }}')"></div>
+<div class="pb-5"></div>";s:4:"code";N;s:9:"resources";a:1:{s:4:"less";a:1:{i:0;s:22:"blocks/hero-image.less";}}}}

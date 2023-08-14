@@ -1,0 +1,44 @@
+1692087470a:1:{s:12:"blog/rss.htm";a:9:{s:8:"fileName";s:12:"blog/rss.htm";s:7:"content";s:936:"##
+url = "/blog/rss"
+title = "Blog RSS Feed"
+
+[collection blog]
+handle = "Blog\Post"
+
+[resources]
+headers[Content-Type] = 'text/xml'
+==
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>{{ this.page.meta_title ?: this.page.title }}</title>
+        <link>{{ 'blog/index'|page }}</link>
+        <description>{{ this.page.meta_description ?: this.page.description }}</description>
+        <atom:link href="{{ 'blog/rss'|page }}" rel="self" type="application/rss+xml" />
+        {% for post in blog %}<item>
+            <title>{{ post.title }}</title>
+            <link>{{ 'blog/post'|page({ slug: post.slug }) }}</link>
+            <guid>{{ post.slug }}</guid>
+            <pubDate>{{ post.published_at_date.toRfc2822String }}</pubDate>
+            <description>{{ post.featured_text }}</description>
+        </item>
+        {% endfor %}
+    </channel>
+</rss>
+";s:5:"mtime";i:1688701776;s:6:"markup";s:799:"<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>{{ this.page.meta_title ?: this.page.title }}</title>
+        <link>{{ 'blog/index'|page }}</link>
+        <description>{{ this.page.meta_description ?: this.page.description }}</description>
+        <atom:link href="{{ 'blog/rss'|page }}" rel="self" type="application/rss+xml" />
+        {% for post in blog %}<item>
+            <title>{{ post.title }}</title>
+            <link>{{ 'blog/post'|page({ slug: post.slug }) }}</link>
+            <guid>{{ post.slug }}</guid>
+            <pubDate>{{ post.published_at_date.toRfc2822String }}</pubDate>
+            <description>{{ post.featured_text }}</description>
+        </item>
+        {% endfor %}
+    </channel>
+</rss>";s:4:"code";N;s:3:"url";s:9:"/blog/rss";s:5:"title";s:13:"Blog RSS Feed";s:15:"collection blog";a:1:{s:6:"handle";s:9:"Blog\Post";}s:9:"resources";a:1:{s:7:"headers";a:1:{s:12:"Content-Type";s:8:"text/xml";}}}}
